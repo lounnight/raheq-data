@@ -1,0 +1,54 @@
+{
+  "id": "qortoby",
+  "version": 1,
+  "format": "json-array",
+  "compression": "gzip",
+  "source": "../qortoby.json",
+  "count": 6236,
+  "originalSize": 20424638,
+  "sha256": "a4f44c7024c9f33b67572db3ba3e49ec11bcdddc6428e4286620d1a6e51233d6",
+  "parts": [
+    {
+      "file": "part-001.json.gz",
+      "index": 1,
+      "count": 1334,
+      "startSurah": 1,
+      "startAya": 1,
+      "endSurah": 9,
+      "endAya": 99,
+      "startKey": 1000001,
+      "endKey": 9000099,
+      "size": 8385293,
+      "compressedSize": 2118991,
+      "sha256": "b6978266ba6cb0c966266878be6cdb4958412135482905e068fb54a99102d09e"
+    },
+    {
+      "file": "part-002.json.gz",
+      "index": 2,
+      "count": 3296,
+      "startSurah": 9,
+      "startAya": 100,
+      "endSurah": 49,
+      "endAya": 18,
+      "startKey": 9000100,
+      "endKey": 49000018,
+      "size": 8381681,
+      "compressedSize": 2133318,
+      "sha256": "d98d898c29b98bc427f306b2b3b433861c7a6a0f8e05bee622b850b49ce4d982"
+    },
+    {
+      "file": "part-003.json.gz",
+      "index": 3,
+      "count": 1606,
+      "startSurah": 50,
+      "startAya": 1,
+      "endSurah": 114,
+      "endAya": 6,
+      "startKey": 50000001,
+      "endKey": 114000006,
+      "size": 3345865,
+      "compressedSize": 799936,
+      "sha256": "e753960dfe29c409553f0febf8afe859283be4514c00866f6babc17469eecbb9"
+    }
+  ]
+}

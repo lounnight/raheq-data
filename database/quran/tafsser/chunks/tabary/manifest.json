@@ -1,0 +1,82 @@
+{
+  "id": "tabary",
+  "version": 1,
+  "format": "json-array",
+  "compression": "gzip",
+  "source": "../tabary.json",
+  "count": 6236,
+  "originalSize": 36043772,
+  "sha256": "8c2b7788b6f92062f0598d5247f777fddec27a63a9fd15d44146a8ff58898e5e",
+  "parts": [
+    {
+      "file": "part-001.json.gz",
+      "index": 1,
+      "count": 443,
+      "startSurah": 1,
+      "startAya": 1,
+      "endSurah": 3,
+      "endAya": 150,
+      "startKey": 1000001,
+      "endKey": 3000150,
+      "size": 8385001,
+      "compressedSize": 1929914,
+      "sha256": "9cbe76aba19ee472b6356e5c0e8cc2eb5b3872e54ea49aa1a11cb309a97db3ef"
+    },
+    {
+      "file": "part-002.json.gz",
+      "index": 2,
+      "count": 700,
+      "startSurah": 3,
+      "startAya": 151,
+      "endSurah": 7,
+      "endAya": 189,
+      "startKey": 3000151,
+      "endKey": 7000189,
+      "size": 8363307,
+      "compressedSize": 1919200,
+      "sha256": "acb1a6cb87468f84a12e8788582a323cf1aef1893a20bd7ba1c55ff1505cec35"
+    },
+    {
+      "file": "part-003.json.gz",
+      "index": 3,
+      "count": 1426,
+      "startSurah": 7,
+      "startAya": 190,
+      "endSurah": 21,
+      "endAya": 86,
+      "startKey": 7000190,
+      "endKey": 21000086,
+      "size": 8377558,
+      "compressedSize": 1853925,
+      "sha256": "6f67dfd4fbcf6d118ce5beb0e67a769d825b69deffbcf2c595b95974fd2739cf"
+    },
+    {
+      "file": "part-004.json.gz",
+      "index": 4,
+      "count": 2702,
+      "startSurah": 21,
+      "startAya": 87,
+      "endSurah": 67,
+      "endAya": 30,
+      "startKey": 21000087,
+      "endKey": 67000030,
+      "size": 8382898,
+      "compressedSize": 1713482,
+      "sha256": "af96d5838de2da020bb2fb7c100dbd50dd97f5bdbded954b742f615de827d8cd"
+    },
+    {
+      "file": "part-005.json.gz",
+      "index": 5,
+      "count": 965,
+      "startSurah": 68,
+      "startAya": 1,
+      "endSurah": 114,
+      "endAya": 6,
+      "startKey": 68000001,
+      "endKey": 114000006,
+      "size": 2223211,
+      "compressedSize": 414057,
+      "sha256": "323f06e60b8493acb353163485c851c4c280d669cd68ae5b9a1f2d04158ee834"
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "id": "tanweer",
+  "version": 1,
+  "format": "json-array",
+  "compression": "gzip",
+  "source": "../tanweer.json",
+  "count": 6236,
+  "originalSize": 28951516,
+  "sha256": "c6ec3c2b27e3bfa6b353f990b0af73bfd4ab31c0099ef31c5afeb1130cba746d",
+  "parts": [
+    {
+      "file": "part-001.json.gz",
+      "index": 1,
+      "count": 1002,
+      "startSurah": 1,
+      "startAya": 1,
+      "endSurah": 7,
+      "endAya": 48,
+      "startKey": 1000001,
+      "endKey": 7000048,
+      "size": 8384630,
+      "compressedSize": 2287788,
+      "sha256": "8b9757574b386f65a5f9d10b3c9dd1ca6cf0cd87e2865ad1bb2ad70044d4d848"
+    },
+    {
+      "file": "part-002.json.gz",
+      "index": 2,
+      "count": 2162,
+      "startSurah": 7,
+      "startAya": 49,
+      "endSurah": 27,
+      "endAya": 5,
+      "startKey": 7000049,
+      "endKey": 27000005,
+      "size": 8388420,
+      "compressedSize": 2272923,
+      "sha256": "f21fee88bc7b4a477bce520b1aa770793bb85ed183e5e7850871b65848e27daa"
+    },
+    {
+      "file": "part-003.json.gz",
+      "index": 3,
+      "count": 1986,
+      "startSurah": 27,
+      "startAya": 6,
+      "endSurah": 59,
+      "endAya": 24,
+      "startKey": 27000006,
+      "endKey": 59000024,
+      "size": 8384225,
+      "compressedSize": 2285163,
+      "sha256": "8514d92bf881b3ad030f2b0cc35ce2b12505f81755e01754d8f6b5259c56088c"
+    },
+    {
+      "file": "part-004.json.gz",
+      "index": 4,
+      "count": 1086,
+      "startSurah": 60,
+      "startAya": 1,
+      "endSurah": 114,
+      "endAya": 6,
+      "startKey": 60000001,
+      "endKey": 114000006,
+      "size": 3482443,
+      "compressedSize": 942283,
+      "sha256": "e8018032d5d8b6273bb80b9d14093a55a0a88e674e1db4dfa8e2ff864e771779"
+    }
+  ]
+}
