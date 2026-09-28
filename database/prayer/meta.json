@@ -1,0 +1,334 @@
+{
+  "schemaVersion": 1,
+  "dataset": "raheq-prayer-locations",
+  "version": "1.0.0",
+  "generatedAt": "2026-09-28T13:27:16.511Z",
+  "generator": "scripts/build-prayer-locations.mjs",
+  "description": "City coordinates, IANA time zones and prayer-time calculation settings for the Raheq Islam prayer-time API (GET /api/prayer-times).",
+  "counts": {
+    "cities": 34146,
+    "countries": 252,
+    "methods": 19,
+    "unimplementedMethods": 4,
+    "timezones": 356,
+    "citiesWithMethodOverride": 1
+  },
+  "files": [
+    {
+      "path": "database/prayer/cities.json",
+      "bytes": 6290438
+    },
+    {
+      "path": "database/prayer/countries.json",
+      "bytes": 70589
+    },
+    {
+      "path": "database/prayer/methods.json",
+      "bytes": 12278
+    },
+    {
+      "path": "database/prayer/timezones.json",
+      "bytes": 121927
+    }
+  ],
+  "resolution": {
+    "summary": "city -> country -> default calculation method -> method parameters",
+    "methodOrder": [
+      "cities[].method",
+      "countries[].defaultMethod",
+      "fallbackMethod"
+    ],
+    "fallbackMethod": "muslim_world_league",
+    "madhabOrder": [
+      "cities[].madhab",
+      "countries[].defaultMadhab",
+      "fallbackMadhab"
+    ],
+    "fallbackMadhab": "shafi",
+    "methodLookup": "methods.methods[methodId]",
+    "utcOffset": "Derive the offset for the requested date from cities[].timezone (IANA); timezones.json only provides reference offsets."
+  },
+  "utcOffsetHandling": {
+    "canonicalSourceOfTruth": "cities[].timezone (IANA time zone identifier)",
+    "storedValues": "timezones.json stores the standard-time offset (rawOffsetMinutes) plus the offsets sampled on one winter and one summer date, so a consumer without a tz database can still tell DST from non-DST zones.",
+    "staleness": "Offsets are re-derived from the IANA database on every build; never treat the stored offsets as permanent for DST-observing zones.",
+    "apiExpectation": "GET /api/prayer-times expects utcOffset in hours (fractional hours allowed): utcOffset = offsetMinutes / 60."
+  },
+  "quality": {
+    "cities": 34146,
+    "citiesWithArabicName": 14292,
+    "citiesWithArabicNameFromGeonames": 8888,
+    "citiesWithArabicNameFromWikidata": 5404,
+    "citiesWithoutArabicName": 19854,
+    "citiesWithoutRegion": 104,
+    "duplicateCityNames": 1046,
+    "duplicateNameGroups": 33100,
+    "duplicateCoordinates": [
+      {
+        "id": 13665129,
+        "name": "Nani Daman",
+        "countryCode": "IN",
+        "coordinates": "20.41431,72.83236",
+        "firstSeenId": 1273618
+      },
+      {
+        "id": 2112996,
+        "name": "Choshi",
+        "countryCode": "JP",
+        "coordinates": "35.73333,140.83333",
+        "firstSeenId": 2112802
+      },
+      {
+        "id": 2130306,
+        "name": "Furano",
+        "countryCode": "JP",
+        "coordinates": "43.35,142.38333",
+        "firstSeenId": 2128147
+      },
+      {
+        "id": 574675,
+        "name": "Bol’shaya Setun’",
+        "countryCode": "RU",
+        "coordinates": "55.71667,37.41667",
+        "firstSeenId": 496456
+      }
+    ],
+    "skippedInvalidRows": 0,
+    "skippedUnknownTimezones": 0,
+    "cityOverrides": [
+      {
+        "id": 292223,
+        "name": "Dubai",
+        "method": "dubai",
+        "notes": "Dubai IACAD publishes 18.2°/18.2° timings, while the UAE country default is Umm al-Qura."
+      }
+    ],
+    "timezoneOffsetMismatchesWithGeoNames": [
+      {
+        "timezone": "Africa/Casablanca",
+        "resolved": 60,
+        "geonames": [
+          0
+        ]
+      },
+      {
+        "timezone": "Africa/El_Aaiun",
+        "resolved": 60,
+        "geonames": [
+          0
+        ]
+      },
+      {
+        "timezone": "Africa/Windhoek",
+        "resolved": 120,
+        "geonames": [
+          60
+        ]
+      }
+    ],
+    "countryMappingWarnings": []
+  },
+  "sources": [
+    {
+      "id": "geonames-cities",
+      "name": "GeoNames gazetteer — cities15000 (cities with population > 15 000, plus capitals)",
+      "url": "https://download.geonames.org/export/dump/",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "usedFor": [
+        "city names",
+        "coordinates",
+        "population",
+        "country code",
+        "IANA timezone",
+        "admin1 region identifier"
+      ],
+      "retrievedAt": "2026-09-28T13:19:20.798Z"
+    },
+    {
+      "id": "geonames-alternatenames",
+      "name": "GeoNames alternateNamesV2 — language-tagged alternate names (isolanguage = ar)",
+      "url": "https://download.geonames.org/export/dump/",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "usedFor": [
+        "Arabic city names (primary source)"
+      ],
+      "retrievedAt": "2026-09-28T13:19:20.928Z"
+    },
+    {
+      "id": "geonames-countryinfo",
+      "name": "GeoNames countryInfo — ISO 3166-1 alpha-2/alpha-3 codes, country names and continent codes",
+      "url": "https://download.geonames.org/export/dump/",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "usedFor": [
+        "country codes",
+        "English country names",
+        "continent codes"
+      ],
+      "retrievedAt": "2026-09-28T13:19:20.930Z"
+    },
+    {
+      "id": "geonames-timezones",
+      "name": "GeoNames timeZones — country/IANA zone rows with January, July and DST-independent GMT offsets",
+      "url": "https://download.geonames.org/export/dump/",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "usedFor": [
+        "cross-checking the standard-time (raw) UTC offset of every IANA zone"
+      ],
+      "retrievedAt": "2026-09-28T13:19:20.930Z"
+    },
+    {
+      "id": "geonames-admin1",
+      "name": "GeoNames admin1CodesASCII — English names for first-level administrative divisions",
+      "url": "https://download.geonames.org/export/dump/",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "usedFor": [
+        "readable region/state names for cities"
+      ],
+      "retrievedAt": "2026-09-28T13:19:20.930Z"
+    },
+    {
+      "id": "wikidata",
+      "name": "Wikidata — Arabic labels (rdfs:label @ar) resolved through property P1566 (GeoNames ID)",
+      "url": "https://query.wikidata.org/",
+      "license": "CC0 1.0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "usedFor": [
+        "Arabic city names (secondary source, only when GeoNames has none)"
+      ],
+      "retrievedAt": "2026-09-28T13:27:16.511Z"
+    },
+    {
+      "id": "cldr",
+      "name": "Unicode CLDR — cldr-localenames-full/main/ar/territories (Arabic territory names)",
+      "url": "https://github.com/unicode-org/cldr-json",
+      "license": "Unicode License v3",
+      "licenseUrl": "https://www.unicode.org/license.txt",
+      "usedFor": [
+        "Arabic country names"
+      ],
+      "retrievedAt": "2026-09-28T13:24:19.228Z"
+    },
+    {
+      "id": "aladhan",
+      "name": "AlAdhan — published calculation-method definitions (method ids and twilight angles)",
+      "url": "https://api.aladhan.com/v1/methods",
+      "license": "Factual method definitions; API operated by Islamic Network (https://aladhan.com)",
+      "licenseUrl": "https://aladhan.com/credits",
+      "usedFor": [
+        "calculation-method ids, Fajr/Isha angles, Isha/Maghrib intervals"
+      ],
+      "retrievedAt": "2026-09-28T13:27:16.511Z"
+    },
+    {
+      "id": "adhan-js",
+      "name": "batoulapps/adhan-js — open-source reference implementation of the same method set",
+      "url": "https://github.com/batoulapps/adhan-js/blob/master/src/CalculationMethod.ts",
+      "license": "MIT",
+      "licenseUrl": "https://github.com/batoulapps/adhan-js/blob/master/LICENSE",
+      "usedFor": [
+        "cross-checking method parameters and published method tunings"
+      ],
+      "retrievedAt": "2026-09-28T13:27:16.511Z"
+    },
+    {
+      "id": "salahtimes",
+      "name": "Salah Times — published per-country default calculation method (239 countries)",
+      "url": "https://www.salahtimes.com/countries",
+      "license": "Cross-reference only; no content copied into this dataset",
+      "licenseUrl": "https://www.salahtimes.com/privacy",
+      "usedFor": [
+        "cross-checking the default country → calculation method mapping"
+      ],
+      "retrievedAt": "2026-09-28T13:27:16.511Z"
+    },
+    {
+      "id": "iana-tz",
+      "name": "IANA time zone database, evaluated through the ICU/Intl implementation shipped with Node.js",
+      "url": "https://www.iana.org/time-zones",
+      "license": "Public domain",
+      "licenseUrl": "https://www.iana.org/time-zones",
+      "usedFor": [
+        "UTC offsets per IANA zone (winter/summer samples) and DST observance"
+      ],
+      "retrievedAt": "2026-09-28T13:27:16.511Z"
+    },
+    {
+      "id": "raheq-engine",
+      "name": "raheq-data prayer-time engine (src/services/prayer-times.js) — the runtime that consumes this dataset",
+      "url": "https://github.com/Nothamod6R/raheq-data/blob/main/src/services/prayer-times.js",
+      "license": "ISC",
+      "licenseUrl": "https://github.com/Nothamod6R/raheq-data/blob/main/package.json",
+      "usedFor": [
+        "method keys, Asr madhab factors, and which parameters the runtime actually applies"
+      ],
+      "retrievedAt": "2026-09-28T13:27:16.511Z"
+    }
+  ],
+  "licenses": [
+    {
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "sources": [
+        "geonames-cities",
+        "geonames-alternatenames",
+        "geonames-countryinfo",
+        "geonames-timezones",
+        "geonames-admin1"
+      ]
+    },
+    {
+      "license": "CC0 1.0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    {
+      "license": "Unicode License v3",
+      "licenseUrl": "https://www.unicode.org/license.txt",
+      "sources": [
+        "cldr"
+      ]
+    },
+    {
+      "license": "Factual method definitions; API operated by Islamic Network (https://aladhan.com)",
+      "licenseUrl": "https://aladhan.com/credits",
+      "sources": [
+        "aladhan"
+      ]
+    },
+    {
+      "license": "MIT",
+      "licenseUrl": "https://github.com/batoulapps/adhan-js/blob/master/LICENSE",
+      "sources": [
+        "adhan-js"
+      ]
+    },
+    {
+      "license": "Cross-reference only; no content copied into this dataset",
+      "licenseUrl": "https://www.salahtimes.com/privacy",
+      "sources": [
+        "salahtimes"
+      ]
+    },
+    {
+      "license": "Public domain",
+      "licenseUrl": "https://www.iana.org/time-zones",
+      "sources": [
+        "iana-tz"
+      ]
+    },
+    {
+      "license": "ISC",
+      "licenseUrl": "https://github.com/Nothamod6R/raheq-data/blob/main/package.json",
+      "sources": [
+        "raheq-engine"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,2688 @@
+{
+  "schemaVersion": 1,
+  "defaults": {
+    "method": "muslim_world_league",
+    "madhab": "shafi"
+  },
+  "methodSourceMeaning": {
+    "national": "Method published by the country’s own religious authority.",
+    "regional": "Method of a neighbouring/regional authority that the country commonly follows.",
+    "default": "No documented country convention; the global fallback method is used."
+  },
+  "countries": {
+    "AD": {
+      "iso2": "AD",
+      "iso3": "AND",
+      "name": "Andorra",
+      "nameAr": "أندورا",
+      "continent": "EU",
+      "defaultMethod": "muslim_world_league",
+      "methodSource": "default",
+      "defaultMadhab": "shafi"
+    },
+    "AE": {
+      "iso2": "AE",
+      "iso3": "ARE",
+      "name": "United Arab Emirates",
+      "nameAr": "الإمارات العربية المتحدة",
+      "continent": "AS",
+      "defaultMethod": "umm_al_qura",
+      "methodSource": "regional",
+      "defaultMadhab": "shafi",
+      "alternatives": [
+        "gulf_region",
+        "dubai"
+      ],
+      "aliasesEn": [
+        "UAE",
+        "Emirates"
+      ],
+      "aliasesAr": [
+        "الإمارات"
+      ],
+      "notes": "Umm al-Qura is the common Gulf default; AlAdhan documents the Gulf Region method as the closest match to UAE Awqaf, and Dubai (IACAD) publishes 18.2°/18.2° timings."
+    },
+    "AF": {
+      "iso2": "AF",
+      "iso3": "AFG",
+      "name": "Afghanistan",
+      "nameAr": "أفغانستان",
+      "continent": "AS",
+      "defaultMethod": "karachi",
+      "methodSource": "national",
+      "defaultMadhab": "hanafi",
+      "notes": "Matches the 18°/18° convention used in Afghanistan."
+    },
+    "AG": {
+      "iso2": "AG",
+      "iso3": "ATG",
+      "name": "Antigua and Barbuda",
+      "nameAr": "أنتيغوا وبربودا",
+      "continent": "NA",
+      "defaultMethod": "muslim_world_league",
+      "methodSource": "default",
+      "defaultMadhab": "shafi"
+    },
+    "AI": {
+      "iso2": "AI",
+      "iso3": "AIA",
+      "name": "Anguilla",
+      "nameAr": "أنغويلا",
+      "continent": "NA",
+      "defaultMethod": "muslim_world_league",
+      "methodSource": "default",
+      "defaultMadhab": "shafi"
+    },
+    "AL": {
+      "iso2": "AL",
+      "iso3": "ALB",
+      "name": "Albania",
+      "nameAr": "ألبانيا",
+      "continent": "EU",
+      "defaultMethod": "muslim_world_league",
+      "methodSource": "default",
+      "defaultMadhab": "hanafi"
+    },
+    "AM": {
+      "iso2": "AM",
+      "iso3": "ARM",
+      "name": "Armenia",
+      "nameAr": "أرمينيا",
+      "continent": "AS",
+      "defaultMethod": "muslim_world_league",
+      "methodSource": "default",
+      "defaultMadhab": "shafi"
+    },
+    "AO": {
+      "iso2": "AO",
+      "iso3": "AGO",
+      "name": "Angola",
+      "nameAr": "أنغولا",
+      "continent": "AF",
+      "defaultMethod": "muslim_world_league",
+      "methodSource": "default",
+      "defaultMadhab": "shafi"
+    },
+    "AQ": {
+      "iso2": "AQ",
+      "iso3": "ATA",
+      "name": "Antarctica",
+      "nameAr": "أنتاركتيكا",
+      "continent": "AN",
+      "defaultMethod": "muslim_world_league",
+      "methodSource": "default",
+      "defaultMadhab": "shafi"
+    },
+    "AR": {
+      "iso2": "AR",
+      "iso3": "ARG",
+      "name": "Argentina",
+      "nameAr": "الأرجنتين",
+      "continent": "SA",
+      "defaultMethod": "muslim_world_league",
+      "methodSource": "default",
+      "defaultMadhab": "shafi"
+    },
+    "AS": {
+      "iso2": "AS",
+      "iso3": "ASM",
+      "name": "American Samoa",
+      "nameAr": "ساموا الأمريكية",
+      "continent": "OC",
+      "defaultMethod": "north_america",
+      "methodSource": "regional",
+      "defaultMadhab": "shafi",
+      "notes": "ISNA angles are the default used in American Samoa."
+    },
+    "AT": {
+      "iso2": "AT",
+      "iso3": "AUT",
+      "name": "Austria",
+      "nameAr": "النمسا",
+      "continent": "EU",
+      "defaultMethod": "muslim_world_league",
+      "methodSource": "default",
+      "defaultMadhab": "shafi"
+    },
+    "AU": {
+      "iso2": "AU",
+      "iso3": "AUS",
+      "name": "Australia",
+      "nameAr": "أستراليا",
+      "continent": "OC",
+      "defaultMethod": "muslim_world_league",
+      "methodSource": "default",
+      "defaultMadhab": "shafi"
+    },
+    "AW": {
+      "iso2": "AW",
+      "iso3": "ABW",
+      "name": "Aruba",
+      "nameAr": "أروبا",
+      "continent": "NA",
+      "defaultMethod": "muslim_world_league",
+      "methodSource": "default",
+      "defaultMadhab": "shafi"
+    },
+    "AX": {
+      "iso2": "AX",
+      "iso3": "ALA",
+      "name": "Aland Islands",
+      "nameAr": "جزر آلاند",
+      "continent": "EU",
+      "defaultMethod": "muslim_world_league",
+      "methodSource": "default",
+      "defaultMadhab": "shafi"
+    },
+    "AZ": {
+      "iso2": "AZ",
+      "iso3": "AZE",
+      "name": "Azerbaijan",
+      "nameAr": "أذربيجان",
+      "continent": "AS",
+      "defaultMethod": "muslim_world_league",
+      "methodSource": "default",
+      "defaultMadhab": "hanafi"
+    },
+    "BA": {
+      "iso2": "BA",
+      "iso3": "BIH",
+      "name": "Bosnia and Herzegovina",
+      "nameAr": "البوسنة والهرسك",
+      "continent": "EU",
+      "defaultMethod": "muslim_world_league",
+      "methodSource": "default",
+      "defaultMadhab": "hanafi",
+      "aliasesEn": [
+        "Bosnia"
+      ]
+    },
+    "BB": {
+      "iso2": "BB",
+      "iso3": "BRB",
+      "name": "Barbados",
+      "nameAr": "بربادوس",
+      "continent": "NA",
+      "defaultMethod": "muslim_world_league",
+      "methodSource": "default",
+      "defaultMadhab": "shafi"
+    },
+    "BD": {
+      "iso2": "BD",
+      "iso3": "BGD",
+      "name": "Bangladesh",
+      "nameAr": "بنغلاديش",
+      "continent": "AS",
+      "defaultMethod": "karachi",
+      "methodSource": "national",
+      "defaultMadhab": "hanafi",
+      "notes": "Matches the 18°/18° convention used by the Islamic Foundation Bangladesh."
+    },
+    "BE": {
+      "iso2": "BE",
+      "iso3": "BEL",
+      "name": "Belgium",
+      "nameAr": "بلجيكا",
+      "continent": "EU",
+      "defaultMethod": "muslim_world_league",
+      "methodSource": "default",
+      "defaultMadhab": "shafi"
+    },
+    "BF": {
+      "iso2": "BF",
+      "iso3": "BFA",
+      "name": "Burkina Faso",
+      "nameAr": "بوركينا فاسو",
+      "continent": "AF",
+      "defaultMethod": "muslim_world_league",
+      "methodSource": "default",
+      "defaultMadhab": "shafi"
+    },
+    "BG": {
+      "iso2": "BG",
+      "iso3": "BGR",
+      "name": "Bulgaria",
+      "nameAr": "بلغاريا",
+      "continent": "EU",
+      "defaultMethod": "muslim_world_league",
+      "methodSource": "default",
+      "defaultMadhab": "shafi"
+    },
+    "BH": {
+      "iso2": "BH",
+      "iso3": "BHR",
+      "name": "Bahrain",
+      "nameAr": "البحرين",
+      "continent": "AS",
+      "defaultMethod": "umm_al_qura",
+      "methodSource": "regional",
+      "defaultMadhab": "shafi",
+      "notes": "Umm al-Qura is the Gulf default used for Bahrain."
+    },
+    "BI": {
+      "iso2": "BI",
+      "iso3": "BDI",
+      "name": "Burundi",
+      "nameAr": "بوروندي",
+      "continent": "AF",
+      "defaultMethod": "muslim_world_league",
+      "methodSource": "default",
+      "defaultMadhab": "shafi"
+    },
+    "BJ": {
+      "iso2": "BJ",
+      "iso3": "BEN",
+      "name": "Benin",
+      "nameAr": "بنين",
+      "continent": "AF",
+      "defaultMethod": "muslim_world_league",
+      "methodSource": "default",
+      "defaultMadhab": "shafi"
+    },
+    "BL": {
+      "iso2": "BL",
+      "iso3": "BLM",
+      "name": "Saint Barthelemy",
+      "nameAr": "سان بارتليمي",
+      "continent": "NA",
+      "defaultMethod": "muslim_world_league",
+      "methodSource": "default",
+      "defaultMadhab": "shafi"
+    },
+    "BM": {
+      "iso2": "BM",
+      "iso3": "BMU",
+      "name": "Bermuda",
+      "nameAr": "برمودا",
+      "continent": "NA",
+      "defaultMethod": "muslim_world_league",
+      "methodSource": "default",
+      "defaultMadhab": "shafi"
+    },
+    "BN": {
+      "iso2": "BN",
+      "iso3": "BRN",
+      "name": "Brunei",
+      "nameAr": "بروناي",
+      "continent": "AS",
+      "defaultMethod": "muslim_world_league",
+      "methodSource": "default",
+      "defaultMadhab": "shafi",
+      "aliasesEn": [
+        "Brunei Darussalam"
+      ]
+    },
+    "BO": {
+      "iso2": "BO",
+      "iso3": "BOL",
+      "name": "Bolivia",
+      "nameAr": "بوليفيا",
+      "continent": "SA",
+      "defaultMethod": "muslim_world_league",
+      "methodSource": "default",
+      "defaultMadhab": "shafi",
+      "aliasesEn": [
+        "Bolivia (Plurinational State of)"
+      ]
+    },
+    "BQ": {
+      "iso2": "BQ",
+      "iso3": "BES",
+      "name": "Bonaire, Saint Eustatius and Saba ",
+      "nameAr": "هولندا الكاريبية",
+      "continent": "NA",
+      "defaultMethod": "muslim_world_league",
+      "methodSource": "default",
+      "defaultMadhab": "shafi"
+    },
+    "BR": {
+      "iso2": "BR",
+      "iso3": "BRA",
+      "name": "Brazil",
+      "nameAr": "البرازيل",
+      "continent": "SA",
+      "defaultMethod": "muslim_world_league",
+      "methodSource": "default",
+      "defaultMadhab": "shafi"
+    },
+    "BS": {
+      "iso2": "BS",
+      "iso3": "BHS",
+      "name": "Bahamas",
+      "nameAr": "جزر البهاما",
+      "continent": "NA",
+      "defaultMethod": "muslim_world_league",
+      "methodSource": "default",
+      "defaultMadhab": "shafi"
+    },
+    "BT": {
+      "iso2": "BT",
+      "iso3": "BTN",
+      "name": "Bhutan",
+      "nameAr": "بوتان",
+      "continent": "AS",
+      "defaultMethod": "muslim_world_league",
+      "methodSource": "default",
+      "defaultMadhab": "shafi"
+    },
+    "BV": {
+      "iso2": "BV",
+      "iso3": "BVT",
+      "name": "Bouvet Island",
+      "nameAr": "جزيرة بوفيه",
+      "continent": "AN",
+      "defaultMethod": "muslim_world_league",
+      "methodSource": "default",
+      "defaultMadhab": "shafi"
+    },
+    "BW": {
+      "iso2": "BW",
+      "iso3": "BWA",
+      "name": "Botswana",
+      "nameAr": "بوتسوانا",
+      "continent": "AF",
+      "defaultMethod": "muslim_world_league",
+      "methodSource": "default",
+      "defaultMadhab": "shafi"
+    },
+    "BY": {
+      "iso2": "BY",
+      "iso3": "BLR",
+      "name": "Belarus",
+      "nameAr": "بيلاروس",
+      "continent": "EU",
+      "defaultMethod": "muslim_world_league",
+      "methodSource": "default",
+      "defaultMadhab": "shafi"
+    },
+    "BZ": {
+      "iso2": "BZ",
+      "iso3": "BLZ",
+      "name": "Belize",
+      "nameAr": "بليز",
+      "continent": "NA",
+      "defaultMethod": "muslim_world_league",
+      "methodSource": "default",
+      "defaultMadhab": "shafi"
+    },
+    "CA": {
+      "iso2": "CA",
+      "iso3": "CAN",
+      "name": "Canada",
+      "nameAr": "كندا",
+      "continent": "NA",
+      "defaultMethod": "north_america",
+      "methodSource": "national",
+      "defaultMadhab": "shafi"
+    },
+    "CC": {
+      "iso2": "CC",
+      "iso3": "CCK",
+      "name": "Cocos Islands",
+      "nameAr": "جزر كوكوس (كيلينغ)",
+      "continent": "AS",
+      "defaultMethod": "muslim_world_league",
+      "methodSource": "default",
+      "defaultMadhab": "shafi"
+    },
+    "CD": {
+      "iso2": "CD",
+      "iso3": "COD",
+      "name": "Democratic Republic of the Congo",
+      "nameAr": "الكونغو - كينشاسا",
+      "continent": "AF",
+      "defaultMethod": "muslim_world_league",
+      "methodSource": "default",
+      "defaultMadhab": "shafi",
+      "aliasesEn": [
+        "DR Congo",
+        "Congo-Kinshasa",
+        "Zaire"
+      ]
+    },
+    "CF": {
+      "iso2": "CF",
+      "iso3": "CAF",
+      "name": "Central African Republic",
+      "nameAr": "جمهورية أفريقيا الوسطى",
+      "continent": "AF",
+      "defaultMethod": "muslim_world_league",
+      "methodSource": "default",
+      "defaultMadhab": "shafi"
+    },
+    "CG": {
+      "iso2": "CG",
+      "iso3": "COG",
+      "name": "Republic of the Congo",
+      "nameAr": "الكونغو - برازافيل",
+      "continent": "AF",
+      "defaultMethod": "muslim_world_league",
+      "methodSource": "default",
+      "defaultMadhab": "shafi",
+      "aliasesEn": [
+        "Congo-Brazzaville"
+      ]
+    },
+    "CH": {
+      "iso2": "CH",
+      "iso3": "CHE",
+      "name": "Switzerland",
+      "nameAr": "سويسرا",
+      "continent": "EU",
+      "defaultMethod": "muslim_world_league",
+      "methodSource": "default",
+      "defaultMadhab": "shafi"
+    },
+    "CI": {
+      "iso2": "CI",
+      "iso3": "CIV",
+      "name": "Ivory Coast",
+      "nameAr": "ساحل العاج",
+      "continent": "AF",
+      "defaultMethod": "muslim_world_league",
+      "methodSource": "default",
+      "defaultMadhab": "shafi",
+      "aliasesEn": [
+        "Côte d'Ivoire"
+      ]
+    },
+    "CK": {
+      "iso2": "CK",
+      "iso3": "COK",
+      "name": "Cook Islands",
+      "nameAr": "جزر كوك",
+      "continent": "OC",
+      "defaultMethod": "muslim_world_league",
+      "methodSource": "default",
+      "defaultMadhab": "shafi"
+    },
+    "CL": {
+      "iso2": "CL",
+      "iso3": "CHL",
+      "name": "Chile",
+      "nameAr": "تشيلي",
+      "continent": "SA",
+      "defaultMethod": "muslim_world_league",
+      "methodSource": "default",
+      "defaultMadhab": "shafi"
+    },
+    "CM": {
+      "iso2": "CM",
+      "iso3": "CMR",
+      "name": "Cameroon",
+      "nameAr": "الكاميرون",
+      "continent": "AF",
+      "defaultMethod": "muslim_world_league",
+      "methodSource": "default",
+      "defaultMadhab": "shafi"
+    },
+    "CN": {
+      "iso2": "CN",
+      "iso3": "CHN",
+      "name": "China",
+      "nameAr": "الصين",
+      "continent": "AS",
+      "defaultMethod": "muslim_world_league",
+      "methodSource": "default",
+      "defaultMadhab": "hanafi"
+    },
+    "CO": {
+      "iso2": "CO",
+      "iso3": "COL",
+      "name": "Colombia",
+      "nameAr": "كولومبيا",
+      "continent": "SA",
+      "defaultMethod": "muslim_world_league",
+      "methodSource": "default",
+      "defaultMadhab": "shafi"
+    },
+    "CR": {
+      "iso2": "CR",
+      "iso3": "CRI",
+      "name": "Costa Rica",
+      "nameAr": "كوستاريكا",
+      "continent": "NA",
+      "defaultMethod": "muslim_world_league",
+      "methodSource": "default",
+      "defaultMadhab": "shafi"
+    },
+    "CU": {
+      "iso2": "CU",
+      "iso3": "CUB",
+      "name": "Cuba",
+      "nameAr": "كوبا",
+      "continent": "NA",
+      "defaultMethod": "muslim_world_league",
+      "methodSource": "default",
+      "defaultMadhab": "shafi"
+    },
+    "CV": {
+      "iso2": "CV",
+      "iso3": "CPV",
+      "name": "Cabo Verde",
+      "nameAr": "الرأس الأخضر",
+      "continent": "AF",
+      "defaultMethod": "muslim_world_league",
+      "methodSource": "default",
+      "defaultMadhab": "shafi",
+      "aliasesEn": [
+        "Cape Verde"
+      ]
+    },
+    "CW": {
+      "iso2": "CW",
+      "iso3": "CUW",
+      "name": "Curacao",
+      "nameAr": "كوراساو",
+      "continent": "NA",
+      "defaultMethod": "muslim_world_league",
+      "methodSource": "default",
+      "defaultMadhab": "shafi"
+    },
+    "CX": {
+      "iso2": "CX",
+      "iso3": "CXR",
+      "name": "Christmas Island",
+      "nameAr": "جزيرة كريسماس",
+      "continent": "OC",
+      "defaultMethod": "muslim_world_league",
+      "methodSource": "default",
+      "defaultMadhab": "shafi"
+    },
+    "CY": {
+      "iso2": "CY",
+      "iso3": "CYP",
+      "name": "Cyprus",
+      "nameAr": "قبرص",
+      "continent": "EU",
+      "defaultMethod": "muslim_world_league",
+      "methodSource": "default",
+      "defaultMadhab": "shafi"
+    },
+    "CZ": {
+      "iso2": "CZ",
+      "iso3": "CZE",
+      "name": "Czechia",
+      "nameAr": "التشيك",
+      "continent": "EU",
+      "defaultMethod": "muslim_world_league",
+      "methodSource": "default",
+      "defaultMadhab": "shafi"
+    },
+    "DE": {
+      "iso2": "DE",
+      "iso3": "DEU",
+      "name": "Germany",
+      "nameAr": "ألمانيا",
+      "continent": "EU",
+      "defaultMethod": "muslim_world_league",
+      "methodSource": "default",
+      "defaultMadhab": "shafi"
+    },
+    "DJ": {
+      "iso2": "DJ",
+      "iso3": "DJI",
+      "name": "Djibouti",
+      "nameAr": "جيبوتي",
+      "continent": "AF",
+      "defaultMethod": "muslim_world_league",
+      "methodSource": "default",
+      "defaultMadhab": "shafi"
+    },
+    "DK": {
+      "iso2": "DK",
+      "iso3": "DNK",
+      "name": "Denmark",
+      "nameAr": "الدانمرك",
+      "continent": "EU",
+      "defaultMethod": "muslim_world_league",
+      "methodSource": "default",
+      "defaultMadhab": "shafi"
+    },
+    "DM": {
+      "iso2": "DM",
+      "iso3": "DMA",
+      "name": "Dominica",
+      "nameAr": "دومينيكا",
+      "continent": "NA",
+      "defaultMethod": "muslim_world_league",
+      "methodSource": "default",
+      "defaultMadhab": "shafi"
+    },
+    "DO": {
+      "iso2": "DO",
+      "iso3": "DOM",
+      "name": "Dominican Republic",
+      "nameAr": "جمهورية الدومينيكان",
+      "continent": "NA",
+      "defaultMethod": "muslim_world_league",
+      "methodSource": "default",
+      "defaultMadhab": "shafi"
+    },
+    "DZ": {
+      "iso2": "DZ",
+      "iso3": "DZA",
+      "name": "Algeria",
+      "nameAr": "الجزائر",
+      "continent": "AF",
+      "defaultMethod": "algeria",
+      "methodSource": "national",
+      "defaultMadhab": "shafi",
+      "notes": "Maliki madhab uses the single-shadow Asr rule (madhab \"shafi\" in the API)."
+    },
+    "EC": {
+      "iso2": "EC",
+      "iso3": "ECU",
+      "name": "Ecuador",
+      "nameAr": "الإكوادور",
+      "continent": "SA",
+      "defaultMethod": "muslim_world_league",
+      "methodSource": "default",
+      "defaultMadhab": "shafi"
+    },
+    "EE": {
+      "iso2": "EE",
+      "iso3": "EST",
+      "name": "Estonia",
+      "nameAr": "إستونيا",
+      "continent": "EU",
+      "defaultMethod": "muslim_world_league",
+      "methodSource": "default",
+      "defaultMadhab": "shafi"
+    },
+    "EG": {
+      "iso2": "EG",
+      "iso3": "EGY",
+      "name": "Egypt",
+      "nameAr": "مصر",
+      "continent": "AF",
+      "defaultMethod": "egyptian",
+      "methodSource": "national",
+      "defaultMadhab": "shafi",
+      "aliasesEn": [
+        "Misr"
+      ]
+    },
+    "EH": {
+      "iso2": "EH",
+      "iso3": "ESH",
+      "name": "Western Sahara",
+      "nameAr": "الصحراء الغربية",
+      "continent": "AF",
+      "defaultMethod": "muslim_world_league",
+      "methodSource": "default",
+      "defaultMadhab": "shafi"
+    },
+    "ER": {
+      "iso2": "ER",
+      "iso3": "ERI",
+      "name": "Eritrea",
+      "nameAr": "إريتريا",
+      "continent": "AF",
+      "defaultMethod": "muslim_world_league",
+      "methodSource": "default",
+      "defaultMadhab": "shafi"
+    },
+    "ES": {
+      "iso2": "ES",
+      "iso3": "ESP",
+      "name": "Spain",
+      "nameAr": "إسبانيا",
+      "continent": "EU",
+      "defaultMethod": "muslim_world_league",
+      "methodSource": "default",
+      "defaultMadhab": "shafi"
+    },
+    "ET": {
+      "iso2": "ET",
+      "iso3": "ETH",
+      "name": "Ethiopia",
+      "nameAr": "إثيوبيا",
+      "continent": "AF",
+      "defaultMethod": "muslim_world_league",
+      "methodSource": "default",
+      "defaultMadhab": "shafi"
+    },
+    "FI": {
+      "iso2": "FI",
+      "iso3": "FIN",
+      "name": "Finland",
+      "nameAr": "فنلندا",
+      "continent": "EU",
+      "defaultMethod": "muslim_world_league",
+      "methodSource": "default",
+      "defaultMadhab": "shafi"
+    },
+    "FJ": {
+      "iso2": "FJ",
+      "iso3": "FJI",
+      "name": "Fiji",
+      "nameAr": "فيجي",
+      "continent": "OC",
+      "defaultMethod": "muslim_world_league",
+      "methodSource": "default",
+      "defaultMadhab": "shafi"
+    },
+    "FK": {
+      "iso2": "FK",
+      "iso3": "FLK",
+      "name": "Falkland Islands",
+      "nameAr": "جزر فوكلاند",
+      "continent": "SA",
+      "defaultMethod": "muslim_world_league",
+      "methodSource": "default",
+      "defaultMadhab": "shafi"
+    },
+    "FM": {
+      "iso2": "FM",
+      "iso3": "FSM",
+      "name": "Micronesia",
+      "nameAr": "ميكرونيزيا",
+      "continent": "OC",
+      "defaultMethod": "muslim_world_league",
+      "methodSource": "default",
+      "defaultMadhab": "shafi"
+    },
+    "FO": {
+      "iso2": "FO",
+      "iso3": "FRO",
+      "name": "Faroe Islands",
+      "nameAr": "جزر فارو",
+      "continent": "EU",
+      "defaultMethod": "muslim_world_league",
+      "methodSource": "default",
+      "defaultMadhab": "shafi"
+    },
+    "FR": {
+      "iso2": "FR",
+      "iso3": "FRA",
+      "name": "France",
+      "nameAr": "فرنسا",
+      "continent": "EU",
+      "defaultMethod": "france",
+      "methodSource": "national",
+      "defaultMadhab": "shafi"
+    },
+    "GA": {
+      "iso2": "GA",
+      "iso3": "GAB",
+      "name": "Gabon",
+      "nameAr": "الغابون",
+      "continent": "AF",
+      "defaultMethod": "muslim_world_league",
+      "methodSource": "default",
+      "defaultMadhab": "shafi"
+    },
+    "GB": {
+      "iso2": "GB",
+      "iso3": "GBR",
+      "name": "United Kingdom",
+      "nameAr": "المملكة المتحدة",
+      "continent": "EU",
+      "defaultMethod": "north_america",
+      "methodSource": "regional",
+      "defaultMadhab": "shafi",
+      "alternatives": [
+        "muslim_world_league",
+        "moonsighting_committee"
+      ],
+      "aliasesEn": [
+        "UK",
+        "Britain",
+        "Great Britain",
+        "England"
+      ],
+      "aliasesAr": [
+        "بريطانيا",
+        "إنجلترا"
+      ],
+      "notes": "ISNA 15°/15° is the widely used UK default and copes better with UK summer twilights than 18° angles."
+    },
+    "GD": {
+      "iso2": "GD",
+      "iso3": "GRD",
+      "name": "Grenada",
+      "nameAr": "غرينادا",
+      "continent": "NA",
+      "defaultMethod": "muslim_world_league",
+      "methodSource": "default",
+      "defaultMadhab": "shafi"
+    },
+    "GE": {
+      "iso2": "GE",
+      "iso3": "GEO",
+      "name": "Georgia",
+      "nameAr": "جورجيا",
+      "continent": "AS",
+      "defaultMethod": "muslim_world_league",
+      "methodSource": "default",
+      "defaultMadhab": "shafi"
+    },
+    "GF": {
+      "iso2": "GF",
+      "iso3": "GUF",
+      "name": "French Guiana",
+      "nameAr": "غويانا الفرنسية",
+      "continent": "SA",
+      "defaultMethod": "muslim_world_league",
+      "methodSource": "default",
+      "defaultMadhab": "shafi"
+    },
+    "GG": {
+      "iso2": "GG",
+      "iso3": "GGY",
+      "name": "Guernsey",
+      "nameAr": "غيرنزي",
+      "continent": "EU",
+      "defaultMethod": "muslim_world_league",
+      "methodSource": "default",
+      "defaultMadhab": "shafi"
+    },
+    "GH": {
+      "iso2": "GH",
+      "iso3": "GHA",
+      "name": "Ghana",
+      "nameAr": "غانا",
+      "continent": "AF",
+      "defaultMethod": "muslim_world_league",
+      "methodSource": "default",
+      "defaultMadhab": "shafi"
+    },
+    "GI": {
+      "iso2": "GI",
+      "iso3": "GIB",
+      "name": "Gibraltar",
+      "nameAr": "جبل طارق",
+      "continent": "EU",
+      "defaultMethod": "muslim_world_league",
+      "methodSource": "default",
+      "defaultMadhab": "shafi"
+    },
+    "GL": {
+      "iso2": "GL",
+      "iso3": "GRL",
+      "name": "Greenland",
+      "nameAr": "غرينلاند",
+      "continent": "NA",
+      "defaultMethod": "muslim_world_league",
+      "methodSource": "default",
+      "defaultMadhab": "shafi"
+    },
+    "GM": {
+      "iso2": "GM",
+      "iso3": "GMB",
+      "name": "Gambia",
+      "nameAr": "غامبيا",
+      "continent": "AF",
+      "defaultMethod": "muslim_world_league",
+      "methodSource": "default",
+      "defaultMadhab": "shafi"
+    },
+    "GN": {
+      "iso2": "GN",
+      "iso3": "GIN",
+      "name": "Guinea",
+      "nameAr": "غينيا",
+      "continent": "AF",
+      "defaultMethod": "muslim_world_league",
+      "methodSource": "default",
+      "defaultMadhab": "shafi"
+    },
+    "GP": {
+      "iso2": "GP",
+      "iso3": "GLP",
+      "name": "Guadeloupe",
+      "nameAr": "غوادلوب",
+      "continent": "NA",
+      "defaultMethod": "muslim_world_league",
+      "methodSource": "default",
+      "defaultMadhab": "shafi"
+    },
+    "GQ": {
+      "iso2": "GQ",
+      "iso3": "GNQ",
+      "name": "Equatorial Guinea",
+      "nameAr": "غينيا الاستوائية",
+      "continent": "AF",
+      "defaultMethod": "muslim_world_league",
+      "methodSource": "default",
+      "defaultMadhab": "shafi"
+    },
+    "GR": {
+      "iso2": "GR",
+      "iso3": "GRC",
+      "name": "Greece",
+      "nameAr": "اليونان",
+      "continent": "EU",
+      "defaultMethod": "muslim_world_league",
+      "methodSource": "default",
+      "defaultMadhab": "shafi"
+    },
+    "GS": {
+      "iso2": "GS",
+      "iso3": "SGS",
+      "name": "South Georgia and the South Sandwich Islands",
+      "nameAr": "جورجيا الجنوبية وجزر ساندويتش الجنوبية",
+      "continent": "AN",
+      "defaultMethod": "muslim_world_league",
+      "methodSource": "default",
+      "defaultMadhab": "shafi"
+    },
+    "GT": {
+      "iso2": "GT",
+      "iso3": "GTM",
+      "name": "Guatemala",
+      "nameAr": "غواتيمالا",
+      "continent": "NA",
+      "defaultMethod": "muslim_world_league",
+      "methodSource": "default",
+      "defaultMadhab": "shafi"
+    },
+    "GU": {
+      "iso2": "GU",
+      "iso3": "GUM",
+      "name": "Guam",
+      "nameAr": "غوام",
+      "continent": "OC",
+      "defaultMethod": "muslim_world_league",
+      "methodSource": "default",
+      "defaultMadhab": "shafi"
+    },
+    "GW": {
+      "iso2": "GW",
+      "iso3": "GNB",
+      "name": "Guinea-Bissau",
+      "nameAr": "غينيا بيساو",
+      "continent": "AF",
+      "defaultMethod": "muslim_world_league",
+      "methodSource": "default",
+      "defaultMadhab": "shafi"
+    },
+    "GY": {
+      "iso2": "GY",
+      "iso3": "GUY",
+      "name": "Guyana",
+      "nameAr": "غيانا",
+      "continent": "SA",
+      "defaultMethod": "muslim_world_league",
+      "methodSource": "default",
+      "defaultMadhab": "shafi"
+    },
+    "HK": {
+      "iso2": "HK",
+      "iso3": "HKG",
+      "name": "Hong Kong",
+      "nameAr": "هونغ كونغ الصينية (منطقة إدارية خاصة)",
+      "continent": "AS",
+      "defaultMethod": "muslim_world_league",
+      "methodSource": "default",
+      "defaultMadhab": "shafi"
+    },
+    "HM": {
+      "iso2": "HM",
+      "iso3": "HMD",
+      "name": "Heard Island and McDonald Islands",
+      "nameAr": "جزيرة هيرد وجزر ماكدونالد",
+      "continent": "AN",
+      "defaultMethod": "muslim_world_league",
+      "methodSource": "default",
+      "defaultMadhab": "shafi"
+    },
+    "HN": {
+      "iso2": "HN",
+      "iso3": "HND",
+      "name": "Honduras",
+      "nameAr": "هندوراس",
+      "continent": "NA",
+      "defaultMethod": "muslim_world_league",
+      "methodSource": "default",
+      "defaultMadhab": "shafi"
+    },
+    "HR": {
+      "iso2": "HR",
+      "iso3": "HRV",
+      "name": "Croatia",
+      "nameAr": "كرواتيا",
+      "continent": "EU",
+      "defaultMethod": "muslim_world_league",
+      "methodSource": "default",
+      "defaultMadhab": "shafi"
+    },
+    "HT": {
+      "iso2": "HT",
+      "iso3": "HTI",
+      "name": "Haiti",
+      "nameAr": "هايتي",
+      "continent": "NA",
+      "defaultMethod": "muslim_world_league",
+      "methodSource": "default",
+      "defaultMadhab": "shafi"
+    },
+    "HU": {
+      "iso2": "HU",
+      "iso3": "HUN",
+      "name": "Hungary",
+      "nameAr": "هنغاريا",
+      "continent": "EU",
+      "defaultMethod": "muslim_world_league",
+      "methodSource": "default",
+      "defaultMadhab": "shafi"
+    },
+    "ID": {
+      "iso2": "ID",
+      "iso3": "IDN",
+      "name": "Indonesia",
+      "nameAr": "إندونيسيا",
+      "continent": "AS",
+      "defaultMethod": "indonesia",
+      "methodSource": "national",
+      "defaultMadhab": "shafi"
+    },
+    "IE": {
+      "iso2": "IE",
+      "iso3": "IRL",
+      "name": "Ireland",
+      "nameAr": "أيرلندا",
+      "continent": "EU",
+      "defaultMethod": "muslim_world_league",
+      "methodSource": "default",
+      "defaultMadhab": "shafi"
+    },
+    "IL": {
+      "iso2": "IL",
+      "iso3": "ISR",
+      "name": "Israel",
+      "nameAr": "إسرائيل",
+      "continent": "AS",
+      "defaultMethod": "muslim_world_league",
+      "methodSource": "default",
+      "defaultMadhab": "shafi"
+    },
+    "IM": {
+      "iso2": "IM",
+      "iso3": "IMN",
+      "name": "Isle of Man",
+      "nameAr": "جزيرة مان",
+      "continent": "EU",
+      "defaultMethod": "muslim_world_league",
+      "methodSource": "default",
+      "defaultMadhab": "shafi"
+    },
+    "IN": {
+      "iso2": "IN",
+      "iso3": "IND",
+      "name": "India",
+      "nameAr": "الهند",
+      "continent": "AS",
+      "defaultMethod": "karachi",
+      "methodSource": "national",
+      "defaultMadhab": "hanafi",
+      "notes": "University of Islamic Sciences, Karachi is the prevailing convention in India."
+    },
+    "IO": {
+      "iso2": "IO",
+      "iso3": "IOT",
+      "name": "British Indian Ocean Territory",
+      "nameAr": "الإقليم البريطاني في المحيط الهندي",
+      "continent": "AS",
+      "defaultMethod": "muslim_world_league",
+      "methodSource": "default",
+      "defaultMadhab": "shafi"
+    },
+    "IQ": {
+      "iso2": "IQ",
+      "iso3": "IRQ",
+      "name": "Iraq",
+      "nameAr": "العراق",
+      "continent": "AS",
+      "defaultMethod": "muslim_world_league",
+      "methodSource": "default",
+      "defaultMadhab": "hanafi"
+    },
+    "IR": {
+      "iso2": "IR",
+      "iso3": "IRN",
+      "name": "Iran",
+      "nameAr": "إيران",
+      "continent": "AS",
+      "defaultMethod": "muslim_world_league",
+      "methodSource": "default",
+      "defaultMadhab": "shafi",
+      "pendingMethods": [
+        "tehran",
+        "jafari"
+      ],
+      "aliasesEn": [
+        "Iran (Islamic Republic of)"
+      ],
+      "notes": "Iran is normally served by the Tehran/Jafari methods, which the runtime cannot reproduce yet (they need Maghrib from an angle). MWL is used until then."
+    },
+    "IS": {
+      "iso2": "IS",
+      "iso3": "ISL",
+      "name": "Iceland",
+      "nameAr": "آيسلندا",
+      "continent": "EU",
+      "defaultMethod": "muslim_world_league",
+      "methodSource": "default",
+      "defaultMadhab": "shafi"
+    },
+    "IT": {
+      "iso2": "IT",
+      "iso3": "ITA",
+      "name": "Italy",
+      "nameAr": "إيطاليا",
+      "continent": "EU",
+      "defaultMethod": "muslim_world_league",
+      "methodSource": "default",
+      "defaultMadhab": "shafi"
+    },
+    "JE": {
+      "iso2": "JE",
+      "iso3": "JEY",
+      "name": "Jersey",
+      "nameAr": "جيرسي",
+      "continent": "EU",
+      "defaultMethod": "muslim_world_league",
+      "methodSource": "default",
+      "defaultMadhab": "shafi"
+    },
+    "JM": {
+      "iso2": "JM",
+      "iso3": "JAM",
+      "name": "Jamaica",
+      "nameAr": "جامايكا",
+      "continent": "NA",
+      "defaultMethod": "muslim_world_league",
+      "methodSource": "default",
+      "defaultMadhab": "shafi"
+    },
+    "JO": {
+      "iso2": "JO",
+      "iso3": "JOR",
+      "name": "Jordan",
+      "nameAr": "الأردن",
+      "continent": "AS",
+      "defaultMethod": "umm_al_qura",
+      "methodSource": "regional",
+      "defaultMadhab": "shafi",
+      "alternatives": [
+        "karachi"
+      ],
+      "pendingMethods": [
+        "jordan"
+      ],
+      "notes": "The Jordanian ministry method is Fajr 18°/Isha 18° with sunset + 5 minutes for Maghrib; the 18°/18° part matches `karachi`, and the Maghrib offset is documented in methods.json > unimplemented."
+    },
+    "JP": {
+      "iso2": "JP",
+      "iso3": "JPN",
+      "name": "Japan",
+      "nameAr": "اليابان",
+      "continent": "AS",
+      "defaultMethod": "muslim_world_league",
+      "methodSource": "default",
+      "defaultMadhab": "shafi"
+    },
+    "KE": {
+      "iso2": "KE",
+      "iso3": "KEN",
+      "name": "Kenya",
+      "nameAr": "كينيا",
+      "continent": "AF",
+      "defaultMethod": "muslim_world_league",
+      "methodSource": "default",
+      "defaultMadhab": "shafi"
+    },
+    "KG": {
+      "iso2": "KG",
+      "iso3": "KGZ",
+      "name": "Kyrgyzstan",
+      "nameAr": "قيرغيزستان",
+      "continent": "AS",
+      "defaultMethod": "muslim_world_league",
+      "methodSource": "default",
+      "defaultMadhab": "hanafi"
+    },
+    "KH": {
+      "iso2": "KH",
+      "iso3": "KHM",
+      "name": "Cambodia",
+      "nameAr": "كمبوديا",
+      "continent": "AS",
+      "defaultMethod": "muslim_world_league",
+      "methodSource": "default",
+      "defaultMadhab": "shafi"
+    },
+    "KI": {
+      "iso2": "KI",
+      "iso3": "KIR",
+      "name": "Kiribati",
+      "nameAr": "كيريباتي",
+      "continent": "OC",
+      "defaultMethod": "muslim_world_league",
+      "methodSource": "default",
+      "defaultMadhab": "shafi"
+    },
+    "KM": {
+      "iso2": "KM",
+      "iso3": "COM",
+      "name": "Comoros",
+      "nameAr": "جزر القمر",
+      "continent": "AF",
+      "defaultMethod": "muslim_world_league",
+      "methodSource": "default",
+      "defaultMadhab": "shafi"
+    },
+    "KN": {
+      "iso2": "KN",
+      "iso3": "KNA",
+      "name": "Saint Kitts and Nevis",
+      "nameAr": "سانت كيتس ونيفيس",
+      "continent": "NA",
+      "defaultMethod": "muslim_world_league",
+      "methodSource": "default",
+      "defaultMadhab": "shafi"
+    },
+    "KP": {
+      "iso2": "KP",
+      "iso3": "PRK",
+      "name": "North Korea",
+      "nameAr": "كوريا الشمالية",
+      "continent": "AS",
+      "defaultMethod": "muslim_world_league",
+      "methodSource": "default",
+      "defaultMadhab": "shafi",
+      "aliasesEn": [
+        "Democratic People's Republic of Korea"
+      ]
+    },
+    "KR": {
+      "iso2": "KR",
+      "iso3": "KOR",
+      "name": "South Korea",
+      "nameAr": "كوريا الجنوبية",
+      "continent": "AS",
+      "defaultMethod": "muslim_world_league",
+      "methodSource": "default",
+      "defaultMadhab": "shafi",
+      "aliasesEn": [
+        "Republic of Korea"
+      ]
+    },
+    "XK": {
+      "iso2": "XK",
+      "iso3": "XKX",
+      "name": "Kosovo",
+      "nameAr": "كوسوفو",
+      "continent": "EU",
+      "defaultMethod": "muslim_world_league",
+      "methodSource": "default",
+      "defaultMadhab": "hanafi"
+    },
+    "KW": {
+      "iso2": "KW",
+      "iso3": "KWT",
+      "name": "Kuwait",
+      "nameAr": "الكويت",
+      "continent": "AS",
+      "defaultMethod": "kuwait",
+      "methodSource": "national",
+      "defaultMadhab": "shafi",
+      "notes": "Kuwaiti Ministry of Awqaf convention: Fajr 18°, Isha 17.5°."
+    },
+    "KY": {
+      "iso2": "KY",
+      "iso3": "CYM",
+      "name": "Cayman Islands",
+      "nameAr": "جزر كايمان",
+      "continent": "NA",
+      "defaultMethod": "muslim_world_league",
+      "methodSource": "default",
+      "defaultMadhab": "shafi"
+    },
+    "KZ": {
+      "iso2": "KZ",
+      "iso3": "KAZ",
+      "name": "Kazakhstan",
+      "nameAr": "كازاخستان",
+      "continent": "AS",
+      "defaultMethod": "muslim_world_league",
+      "methodSource": "default",
+      "defaultMadhab": "hanafi"
+    },
+    "LA": {
+      "iso2": "LA",
+      "iso3": "LAO",
+      "name": "Laos",
+      "nameAr": "لاوس",
+      "continent": "AS",
+      "defaultMethod": "muslim_world_league",
+      "methodSource": "default",
+      "defaultMadhab": "shafi"
+    },
+    "LB": {
+      "iso2": "LB",
+      "iso3": "LBN",
+      "name": "Lebanon",
+      "nameAr": "لبنان",
+      "continent": "AS",
+      "defaultMethod": "muslim_world_league",
+      "methodSource": "default",
+      "defaultMadhab": "shafi"
+    },
+    "LC": {
+      "iso2": "LC",
+      "iso3": "LCA",
+      "name": "Saint Lucia",
+      "nameAr": "سانت لوسيا",
+      "continent": "NA",
+      "defaultMethod": "muslim_world_league",
+      "methodSource": "default",
+      "defaultMadhab": "shafi"
+    },
+    "LI": {
+      "iso2": "LI",
+      "iso3": "LIE",
+      "name": "Liechtenstein",
+      "nameAr": "ليختنشتاين",
+      "continent": "EU",
+      "defaultMethod": "muslim_world_league",
+      "methodSource": "default",
+      "defaultMadhab": "shafi"
+    },
+    "LK": {
+      "iso2": "LK",
+      "iso3": "LKA",
+      "name": "Sri Lanka",
+      "nameAr": "سريلانكا",
+      "continent": "AS",
+      "defaultMethod": "muslim_world_league",
+      "methodSource": "default",
+      "defaultMadhab": "shafi"
+    },
+    "LR": {
+      "iso2": "LR",
+      "iso3": "LBR",
+      "name": "Liberia",
+      "nameAr": "ليبيريا",
+      "continent": "AF",
+      "defaultMethod": "muslim_world_league",
+      "methodSource": "default",
+      "defaultMadhab": "shafi"
+    },
+    "LS": {
+      "iso2": "LS",
+      "iso3": "LSO",
+      "name": "Lesotho",
+      "nameAr": "ليسوتو",
+      "continent": "AF",
+      "defaultMethod": "muslim_world_league",
+      "methodSource": "default",
+      "defaultMadhab": "shafi"
+    },
+    "LT": {
+      "iso2": "LT",
+      "iso3": "LTU",
+      "name": "Lithuania",
+      "nameAr": "ليتوانيا",
+      "continent": "EU",
+      "defaultMethod": "muslim_world_league",
+      "methodSource": "default",
+      "defaultMadhab": "shafi"
+    },
+    "LU": {
+      "iso2": "LU",
+      "iso3": "LUX",
+      "name": "Luxembourg",
+      "nameAr": "لوكسمبورغ",
+      "continent": "EU",
+      "defaultMethod": "muslim_world_league",
+      "methodSource": "default",
+      "defaultMadhab": "shafi"
+    },
+    "LV": {
+      "iso2": "LV",
+      "iso3": "LVA",
+      "name": "Latvia",
+      "nameAr": "لاتفيا",
+      "continent": "EU",
+      "defaultMethod": "muslim_world_league",
+      "methodSource": "default",
+      "defaultMadhab": "shafi"
+    },
+    "LY": {
+      "iso2": "LY",
+      "iso3": "LBY",
+      "name": "Libya",
+      "nameAr": "ليبيا",
+      "continent": "AF",
+      "defaultMethod": "egyptian",
+      "methodSource": "regional",
+      "defaultMadhab": "shafi",
+      "notes": "Egyptian General Authority of Survey is the default used in Libya."
+    },
+    "MA": {
+      "iso2": "MA",
+      "iso3": "MAR",
+      "name": "Morocco",
+      "nameAr": "المغرب",
+      "continent": "AF",
+      "defaultMethod": "morocco",
+      "methodSource": "national",
+      "defaultMadhab": "shafi"
+    },
+    "MC": {
+      "iso2": "MC",
+      "iso3": "MCO",
+      "name": "Monaco",
+      "nameAr": "موناكو",
+      "continent": "EU",
+      "defaultMethod": "muslim_world_league",
+      "methodSource": "default",
+      "defaultMadhab": "shafi"
+    },
+    "MD": {
+      "iso2": "MD",
+      "iso3": "MDA",
+      "name": "Moldova",
+      "nameAr": "مولدوفا",
+      "continent": "EU",
+      "defaultMethod": "muslim_world_league",
+      "methodSource": "default",
+      "defaultMadhab": "shafi"
+    },
+    "ME": {
+      "iso2": "ME",
+      "iso3": "MNE",
+      "name": "Montenegro",
+      "nameAr": "الجبل الأسود",
+      "continent": "EU",
+      "defaultMethod": "muslim_world_league",
+      "methodSource": "default",
+      "defaultMadhab": "shafi"
+    },
+    "MF": {
+      "iso2": "MF",
+      "iso3": "MAF",
+      "name": "Saint Martin",
+      "nameAr": "سان مارتن",
+      "continent": "NA",
+      "defaultMethod": "muslim_world_league",
+      "methodSource": "default",
+      "defaultMadhab": "shafi"
+    },
+    "MG": {
+      "iso2": "MG",
+      "iso3": "MDG",
+      "name": "Madagascar",
+      "nameAr": "مدغشقر",
+      "continent": "AF",
+      "defaultMethod": "muslim_world_league",
+      "methodSource": "default",
+      "defaultMadhab": "shafi"
+    },
+    "MH": {
+      "iso2": "MH",
+      "iso3": "MHL",
+      "name": "Marshall Islands",
+      "nameAr": "جزر مارشال",
+      "continent": "OC",
+      "defaultMethod": "muslim_world_league",
+      "methodSource": "default",
+      "defaultMadhab": "shafi"
+    },
+    "MK": {
+      "iso2": "MK",
+      "iso3": "MKD",
+      "name": "North Macedonia",
+      "nameAr": "مقدونيا الشمالية",
+      "continent": "EU",
+      "defaultMethod": "muslim_world_league",
+      "methodSource": "default",
+      "defaultMadhab": "hanafi",
+      "aliasesEn": [
+        "Macedonia"
+      ]
+    },
+    "ML": {
+      "iso2": "ML",
+      "iso3": "MLI",
+      "name": "Mali",
+      "nameAr": "مالي",
+      "continent": "AF",
+      "defaultMethod": "muslim_world_league",
+      "methodSource": "default",
+      "defaultMadhab": "shafi"
+    },
+    "MM": {
+      "iso2": "MM",
+      "iso3": "MMR",
+      "name": "Myanmar",
+      "nameAr": "ميانمار (بورما)",
+      "continent": "AS",
+      "defaultMethod": "muslim_world_league",
+      "methodSource": "default",
+      "defaultMadhab": "shafi",
+      "aliasesEn": [
+        "Burma"
+      ]
+    },
+    "MN": {
+      "iso2": "MN",
+      "iso3": "MNG",
+      "name": "Mongolia",
+      "nameAr": "منغوليا",
+      "continent": "AS",
+      "defaultMethod": "muslim_world_league",
+      "methodSource": "default",
+      "defaultMadhab": "shafi"
+    },
+    "MO": {
+      "iso2": "MO",
+      "iso3": "MAC",
+      "name": "Macao",
+      "nameAr": "منطقة ماكاو الإدارية الخاصة",
+      "continent": "AS",
+      "defaultMethod": "muslim_world_league",
+      "methodSource": "default",
+      "defaultMadhab": "shafi"
+    },
+    "MP": {
+      "iso2": "MP",
+      "iso3": "MNP",
+      "name": "Northern Mariana Islands",
+      "nameAr": "جزر ماريانا الشمالية",
+      "continent": "OC",
+      "defaultMethod": "muslim_world_league",
+      "methodSource": "default",
+      "defaultMadhab": "shafi"
+    },
+    "MQ": {
+      "iso2": "MQ",
+      "iso3": "MTQ",
+      "name": "Martinique",
+      "nameAr": "جزر المارتينيك",
+      "continent": "NA",
+      "defaultMethod": "muslim_world_league",
+      "methodSource": "default",
+      "defaultMadhab": "shafi"
+    },
+    "MR": {
+      "iso2": "MR",
+      "iso3": "MRT",
+      "name": "Mauritania",
+      "nameAr": "موريتانيا",
+      "continent": "AF",
+      "defaultMethod": "muslim_world_league",
+      "methodSource": "default",
+      "defaultMadhab": "shafi"
+    },
+    "MS": {
+      "iso2": "MS",
+      "iso3": "MSR",
+      "name": "Montserrat",
+      "nameAr": "مونتسرات",
+      "continent": "NA",
+      "defaultMethod": "muslim_world_league",
+      "methodSource": "default",
+      "defaultMadhab": "shafi"
+    },
+    "MT": {
+      "iso2": "MT",
+      "iso3": "MLT",
+      "name": "Malta",
+      "nameAr": "مالطا",
+      "continent": "EU",
+      "defaultMethod": "muslim_world_league",
+      "methodSource": "default",
+      "defaultMadhab": "shafi"
+    },
+    "MU": {
+      "iso2": "MU",
+      "iso3": "MUS",
+      "name": "Mauritius",
+      "nameAr": "موريشيوس",
+      "continent": "AF",
+      "defaultMethod": "muslim_world_league",
+      "methodSource": "default",
+      "defaultMadhab": "shafi"
+    },
+    "MV": {
+      "iso2": "MV",
+      "iso3": "MDV",
+      "name": "Maldives",
+      "nameAr": "جزر المالديف",
+      "continent": "AS",
+      "defaultMethod": "muslim_world_league",
+      "methodSource": "default",
+      "defaultMadhab": "shafi"
+    },
+    "MW": {
+      "iso2": "MW",
+      "iso3": "MWI",
+      "name": "Malawi",
+      "nameAr": "ملاوي",
+      "continent": "AF",
+      "defaultMethod": "muslim_world_league",
+      "methodSource": "default",
+      "defaultMadhab": "shafi"
+    },
+    "MX": {
+      "iso2": "MX",
+      "iso3": "MEX",
+      "name": "Mexico",
+      "nameAr": "المكسيك",
+      "continent": "NA",
+      "defaultMethod": "muslim_world_league",
+      "methodSource": "default",
+      "defaultMadhab": "shafi"
+    },
+    "MY": {
+      "iso2": "MY",
+      "iso3": "MYS",
+      "name": "Malaysia",
+      "nameAr": "ماليزيا",
+      "continent": "AS",
+      "defaultMethod": "jakim",
+      "methodSource": "national",
+      "defaultMadhab": "shafi"
+    },
+    "MZ": {
+      "iso2": "MZ",
+      "iso3": "MOZ",
+      "name": "Mozambique",
+      "nameAr": "موزمبيق",
+      "continent": "AF",
+      "defaultMethod": "muslim_world_league",
+      "methodSource": "default",
+      "defaultMadhab": "shafi"
+    },
+    "NA": {
+      "iso2": "NA",
+      "iso3": "NAM",
+      "name": "Namibia",
+      "nameAr": "ناميبيا",
+      "continent": "AF",
+      "defaultMethod": "muslim_world_league",
+      "methodSource": "default",
+      "defaultMadhab": "shafi"
+    },
+    "NC": {
+      "iso2": "NC",
+      "iso3": "NCL",
+      "name": "New Caledonia",
+      "nameAr": "كاليدونيا الجديدة",
+      "continent": "OC",
+      "defaultMethod": "muslim_world_league",
+      "methodSource": "default",
+      "defaultMadhab": "shafi"
+    },
+    "NE": {
+      "iso2": "NE",
+      "iso3": "NER",
+      "name": "Niger",
+      "nameAr": "النيجر",
+      "continent": "AF",
+      "defaultMethod": "muslim_world_league",
+      "methodSource": "default",
+      "defaultMadhab": "shafi"
+    },
+    "NF": {
+      "iso2": "NF",
+      "iso3": "NFK",
+      "name": "Norfolk Island",
+      "nameAr": "جزيرة نورفولك",
+      "continent": "OC",
+      "defaultMethod": "muslim_world_league",
+      "methodSource": "default",
+      "defaultMadhab": "shafi"
+    },
+    "NG": {
+      "iso2": "NG",
+      "iso3": "NGA",
+      "name": "Nigeria",
+      "nameAr": "نيجيريا",
+      "continent": "AF",
+      "defaultMethod": "egyptian",
+      "methodSource": "regional",
+      "defaultMadhab": "shafi",
+      "alternatives": [
+        "muslim_world_league"
+      ],
+      "notes": "The Egyptian authority is the common Nigerian default; MWL is the usual alternative."
+    },
+    "NI": {
+      "iso2": "NI",
+      "iso3": "NIC",
+      "name": "Nicaragua",
+      "nameAr": "نيكاراغوا",
+      "continent": "NA",
+      "defaultMethod": "muslim_world_league",
+      "methodSource": "default",
+      "defaultMadhab": "shafi"
+    },
+    "NL": {
+      "iso2": "NL",
+      "iso3": "NLD",
+      "name": "The Netherlands",
+      "nameAr": "هولندا",
+      "continent": "EU",
+      "defaultMethod": "muslim_world_league",
+      "methodSource": "default",
+      "defaultMadhab": "shafi",
+      "aliasesEn": [
+        "Holland"
+      ]
+    },
+    "NO": {
+      "iso2": "NO",
+      "iso3": "NOR",
+      "name": "Norway",
+      "nameAr": "النرويج",
+      "continent": "EU",
+      "defaultMethod": "muslim_world_league",
+      "methodSource": "default",
+      "defaultMadhab": "shafi"
+    },
+    "NP": {
+      "iso2": "NP",
+      "iso3": "NPL",
+      "name": "Nepal",
+      "nameAr": "نيبال",
+      "continent": "AS",
+      "defaultMethod": "muslim_world_league",
+      "methodSource": "default",
+      "defaultMadhab": "shafi"
+    },
+    "NR": {
+      "iso2": "NR",
+      "iso3": "NRU",
+      "name": "Nauru",
+      "nameAr": "ناورو",
+      "continent": "OC",
+      "defaultMethod": "muslim_world_league",
+      "methodSource": "default",
+      "defaultMadhab": "shafi"
+    },
+    "NU": {
+      "iso2": "NU",
+      "iso3": "NIU",
+      "name": "Niue",
+      "nameAr": "نيوي",
+      "continent": "OC",
+      "defaultMethod": "muslim_world_league",
+      "methodSource": "default",
+      "defaultMadhab": "shafi"
+    },
+    "NZ": {
+      "iso2": "NZ",
+      "iso3": "NZL",
+      "name": "New Zealand",
+      "nameAr": "نيوزيلندا",
+      "continent": "OC",
+      "defaultMethod": "muslim_world_league",
+      "methodSource": "default",
+      "defaultMadhab": "shafi"
+    },
+    "OM": {
+      "iso2": "OM",
+      "iso3": "OMN",
+      "name": "Oman",
+      "nameAr": "عُمان",
+      "continent": "AS",
+      "defaultMethod": "umm_al_qura",
+      "methodSource": "regional",
+      "defaultMadhab": "shafi",
+      "notes": "Umm al-Qura is the Gulf default used for Oman."
+    },
+    "PA": {
+      "iso2": "PA",
+      "iso3": "PAN",
+      "name": "Panama",
+      "nameAr": "بنما",
+      "continent": "NA",
+      "defaultMethod": "muslim_world_league",
+      "methodSource": "default",
+      "defaultMadhab": "shafi"
+    },
+    "PE": {
+      "iso2": "PE",
+      "iso3": "PER",
+      "name": "Peru",
+      "nameAr": "بيرو",
+      "continent": "SA",
+      "defaultMethod": "muslim_world_league",
+      "methodSource": "default",
+      "defaultMadhab": "shafi"
+    },
+    "PF": {
+      "iso2": "PF",
+      "iso3": "PYF",
+      "name": "French Polynesia",
+      "nameAr": "بولينيزيا الفرنسية",
+      "continent": "OC",
+      "defaultMethod": "muslim_world_league",
+      "methodSource": "default",
+      "defaultMadhab": "shafi"
+    },
+    "PG": {
+      "iso2": "PG",
+      "iso3": "PNG",
+      "name": "Papua New Guinea",
+      "nameAr": "بابوا غينيا الجديدة",
+      "continent": "OC",
+      "defaultMethod": "muslim_world_league",
+      "methodSource": "default",
+      "defaultMadhab": "shafi"
+    },
+    "PH": {
+      "iso2": "PH",
+      "iso3": "PHL",
+      "name": "Philippines",
+      "nameAr": "الفلبين",
+      "continent": "AS",
+      "defaultMethod": "muslim_world_league",
+      "methodSource": "default",
+      "defaultMadhab": "shafi"
+    },
+    "PK": {
+      "iso2": "PK",
+      "iso3": "PAK",
+      "name": "Pakistan",
+      "nameAr": "باكستان",
+      "continent": "AS",
+      "defaultMethod": "karachi",
+      "methodSource": "national",
+      "defaultMadhab": "hanafi"
+    },
+    "PL": {
+      "iso2": "PL",
+      "iso3": "POL",
+      "name": "Poland",
+      "nameAr": "بولندا",
+      "continent": "EU",
+      "defaultMethod": "muslim_world_league",
+      "methodSource": "default",
+      "defaultMadhab": "shafi"
+    },
+    "PM": {
+      "iso2": "PM",
+      "iso3": "SPM",
+      "name": "Saint Pierre and Miquelon",
+      "nameAr": "سان بيير ومكويلون",
+      "continent": "NA",
+      "defaultMethod": "muslim_world_league",
+      "methodSource": "default",
+      "defaultMadhab": "shafi"
+    },
+    "PN": {
+      "iso2": "PN",
+      "iso3": "PCN",
+      "name": "Pitcairn",
+      "nameAr": "جزر بيتكيرن",
+      "continent": "OC",
+      "defaultMethod": "muslim_world_league",
+      "methodSource": "default",
+      "defaultMadhab": "shafi"
+    },
+    "PR": {
+      "iso2": "PR",
+      "iso3": "PRI",
+      "name": "Puerto Rico",
+      "nameAr": "بورتوريكو",
+      "continent": "NA",
+      "defaultMethod": "muslim_world_league",
+      "methodSource": "default",
+      "defaultMadhab": "shafi"
+    },
+    "PS": {
+      "iso2": "PS",
+      "iso3": "PSE",
+      "name": "Palestinian Territory",
+      "nameAr": "الأراضي الفلسطينية",
+      "continent": "AS",
+      "defaultMethod": "muslim_world_league",
+      "methodSource": "default",
+      "defaultMadhab": "shafi",
+      "aliasesEn": [
+        "Palestine",
+        "West Bank",
+        "Gaza"
+      ],
+      "aliasesAr": [
+        "فلسطين"
+      ]
+    },
+    "PT": {
+      "iso2": "PT",
+      "iso3": "PRT",
+      "name": "Portugal",
+      "nameAr": "البرتغال",
+      "continent": "EU",
+      "defaultMethod": "muslim_world_league",
+      "methodSource": "default",
+      "defaultMadhab": "shafi",
+      "pendingMethods": [
+        "portugal"
+      ],
+      "notes": "The Comunidade Islamica de Lisboa method (sunset + 3 min, Isha 77 min) is not implemented by the runtime yet."
+    },
+    "PW": {
+      "iso2": "PW",
+      "iso3": "PLW",
+      "name": "Palau",
+      "nameAr": "بالاو",
+      "continent": "OC",
+      "defaultMethod": "muslim_world_league",
+      "methodSource": "default",
+      "defaultMadhab": "shafi"
+    },
+    "PY": {
+      "iso2": "PY",
+      "iso3": "PRY",
+      "name": "Paraguay",
+      "nameAr": "باراغواي",
+      "continent": "SA",
+      "defaultMethod": "muslim_world_league",
+      "methodSource": "default",
+      "defaultMadhab": "shafi"
+    },
+    "QA": {
+      "iso2": "QA",
+      "iso3": "QAT",
+      "name": "Qatar",
+      "nameAr": "قطر",
+      "continent": "AS",
+      "defaultMethod": "qatar",
+      "methodSource": "national",
+      "defaultMadhab": "shafi",
+      "notes": "Qatar Calendar House timings: Fajr 18°, Isha 90 minutes after Maghrib."
+    },
+    "RE": {
+      "iso2": "RE",
+      "iso3": "REU",
+      "name": "Reunion",
+      "nameAr": "روينيون",
+      "continent": "AF",
+      "defaultMethod": "muslim_world_league",
+      "methodSource": "default",
+      "defaultMadhab": "shafi"
+    },
+    "RO": {
+      "iso2": "RO",
+      "iso3": "ROU",
+      "name": "Romania",
+      "nameAr": "رومانيا",
+      "continent": "EU",
+      "defaultMethod": "muslim_world_league",
+      "methodSource": "default",
+      "defaultMadhab": "shafi"
+    },
+    "RS": {
+      "iso2": "RS",
+      "iso3": "SRB",
+      "name": "Serbia",
+      "nameAr": "صربيا",
+      "continent": "EU",
+      "defaultMethod": "muslim_world_league",
+      "methodSource": "default",
+      "defaultMadhab": "shafi"
+    },
+    "RU": {
+      "iso2": "RU",
+      "iso3": "RUS",
+      "name": "Russia",
+      "nameAr": "روسيا",
+      "continent": "EU",
+      "defaultMethod": "russia",
+      "methodSource": "national",
+      "defaultMadhab": "hanafi",
+      "aliasesEn": [
+        "Russian Federation"
+      ]
+    },
+    "RW": {
+      "iso2": "RW",
+      "iso3": "RWA",
+      "name": "Rwanda",
+      "nameAr": "رواندا",
+      "continent": "AF",
+      "defaultMethod": "muslim_world_league",
+      "methodSource": "default",
+      "defaultMadhab": "shafi"
+    },
+    "SA": {
+      "iso2": "SA",
+      "iso3": "SAU",
+      "name": "Saudi Arabia",
+      "nameAr": "المملكة العربية السعودية",
+      "continent": "AS",
+      "defaultMethod": "umm_al_qura",
+      "methodSource": "national",
+      "defaultMadhab": "shafi",
+      "aliasesEn": [
+        "KSA",
+        "Kingdom of Saudi Arabia"
+      ],
+      "aliasesAr": [
+        "السعودية"
+      ],
+      "notes": "Umm al-Qura University (Makkah) is the official Saudi calendar authority."
+    },
+    "SB": {
+      "iso2": "SB",
+      "iso3": "SLB",
+      "name": "Solomon Islands",
+      "nameAr": "جزر سليمان",
+      "continent": "OC",
+      "defaultMethod": "muslim_world_league",
+      "methodSource": "default",
+      "defaultMadhab": "shafi"
+    },
+    "SC": {
+      "iso2": "SC",
+      "iso3": "SYC",
+      "name": "Seychelles",
+      "nameAr": "سيشل",
+      "continent": "AF",
+      "defaultMethod": "muslim_world_league",
+      "methodSource": "default",
+      "defaultMadhab": "shafi"
+    },
+    "SD": {
+      "iso2": "SD",
+      "iso3": "SDN",
+      "name": "Sudan",
+      "nameAr": "السودان",
+      "continent": "AF",
+      "defaultMethod": "egyptian",
+      "methodSource": "regional",
+      "defaultMadhab": "shafi",
+      "notes": "Egyptian General Authority of Survey is the default used in Sudan."
+    },
+    "SS": {
+      "iso2": "SS",
+      "iso3": "SSD",
+      "name": "South Sudan",
+      "nameAr": "جنوب السودان",
+      "continent": "AF",
+      "defaultMethod": "egyptian",
+      "methodSource": "regional",
+      "defaultMadhab": "shafi",
+      "notes": "Egyptian General Authority of Survey is the default used in South Sudan."
+    },
+    "SE": {
+      "iso2": "SE",
+      "iso3": "SWE",
+      "name": "Sweden",
+      "nameAr": "السويد",
+      "continent": "EU",
+      "defaultMethod": "muslim_world_league",
+      "methodSource": "default",
+      "defaultMadhab": "shafi"
+    },
+    "SG": {
+      "iso2": "SG",
+      "iso3": "SGP",
+      "name": "Singapore",
+      "nameAr": "سنغافورة",
+      "continent": "AS",
+      "defaultMethod": "singapore",
+      "methodSource": "national",
+      "defaultMadhab": "shafi"
+    },
+    "SH": {
+      "iso2": "SH",
+      "iso3": "SHN",
+      "name": "Saint Helena",
+      "nameAr": "سانت هيلينا",
+      "continent": "AF",
+      "defaultMethod": "muslim_world_league",
+      "methodSource": "default",
+      "defaultMadhab": "shafi"
+    },
+    "SI": {
+      "iso2": "SI",
+      "iso3": "SVN",
+      "name": "Slovenia",
+      "nameAr": "سلوفينيا",
+      "continent": "EU",
+      "defaultMethod": "muslim_world_league",
+      "methodSource": "default",
+      "defaultMadhab": "shafi"
+    },
+    "SJ": {
+      "iso2": "SJ",
+      "iso3": "SJM",
+      "name": "Svalbard and Jan Mayen",
+      "nameAr": "سفالبارد وجان ماين",
+      "continent": "EU",
+      "defaultMethod": "muslim_world_league",
+      "methodSource": "default",
+      "defaultMadhab": "shafi"
+    },
+    "SK": {
+      "iso2": "SK",
+      "iso3": "SVK",
+      "name": "Slovakia",
+      "nameAr": "سلوفاكيا",
+      "continent": "EU",
+      "defaultMethod": "muslim_world_league",
+      "methodSource": "default",
+      "defaultMadhab": "shafi"
+    },
+    "SL": {
+      "iso2": "SL",
+      "iso3": "SLE",
+      "name": "Sierra Leone",
+      "nameAr": "سيراليون",
+      "continent": "AF",
+      "defaultMethod": "muslim_world_league",
+      "methodSource": "default",
+      "defaultMadhab": "shafi"
+    },
+    "SM": {
+      "iso2": "SM",
+      "iso3": "SMR",
+      "name": "San Marino",
+      "nameAr": "سان مارينو",
+      "continent": "EU",
+      "defaultMethod": "muslim_world_league",
+      "methodSource": "default",
+      "defaultMadhab": "shafi"
+    },
+    "SN": {
+      "iso2": "SN",
+      "iso3": "SEN",
+      "name": "Senegal",
+      "nameAr": "السنغال",
+      "continent": "AF",
+      "defaultMethod": "muslim_world_league",
+      "methodSource": "default",
+      "defaultMadhab": "shafi"
+    },
+    "SO": {
+      "iso2": "SO",
+      "iso3": "SOM",
+      "name": "Somalia",
+      "nameAr": "الصومال",
+      "continent": "AF",
+      "defaultMethod": "muslim_world_league",
+      "methodSource": "default",
+      "defaultMadhab": "shafi"
+    },
+    "SR": {
+      "iso2": "SR",
+      "iso3": "SUR",
+      "name": "Suriname",
+      "nameAr": "سورينام",
+      "continent": "SA",
+      "defaultMethod": "muslim_world_league",
+      "methodSource": "default",
+      "defaultMadhab": "shafi"
+    },
+    "ST": {
+      "iso2": "ST",
+      "iso3": "STP",
+      "name": "Sao Tome and Principe",
+      "nameAr": "ساو تومي وبرينسيبي",
+      "continent": "AF",
+      "defaultMethod": "muslim_world_league",
+      "methodSource": "default",
+      "defaultMadhab": "shafi"
+    },
+    "SV": {
+      "iso2": "SV",
+      "iso3": "SLV",
+      "name": "El Salvador",
+      "nameAr": "السلفادور",
+      "continent": "NA",
+      "defaultMethod": "muslim_world_league",
+      "methodSource": "default",
+      "defaultMadhab": "shafi"
+    },
+    "SX": {
+      "iso2": "SX",
+      "iso3": "SXM",
+      "name": "Sint Maarten",
+      "nameAr": "سانت مارتن",
+      "continent": "NA",
+      "defaultMethod": "muslim_world_league",
+      "methodSource": "default",
+      "defaultMadhab": "shafi"
+    },
+    "SY": {
+      "iso2": "SY",
+      "iso3": "SYR",
+      "name": "Syria",
+      "nameAr": "سوريا",
+      "continent": "AS",
+      "defaultMethod": "umm_al_qura",
+      "methodSource": "regional",
+      "defaultMadhab": "shafi",
+      "notes": "Umm al-Qura is the commonly used default for Syria."
+    },
+    "SZ": {
+      "iso2": "SZ",
+      "iso3": "SWZ",
+      "name": "Eswatini",
+      "nameAr": "إسواتيني",
+      "continent": "AF",
+      "defaultMethod": "muslim_world_league",
+      "methodSource": "default",
+      "defaultMadhab": "shafi",
+      "aliasesEn": [
+        "Swaziland"
+      ]
+    },
+    "TC": {
+      "iso2": "TC",
+      "iso3": "TCA",
+      "name": "Turks and Caicos Islands",
+      "nameAr": "جزر توركس وكايكوس",
+      "continent": "NA",
+      "defaultMethod": "muslim_world_league",
+      "methodSource": "default",
+      "defaultMadhab": "shafi"
+    },
+    "TD": {
+      "iso2": "TD",
+      "iso3": "TCD",
+      "name": "Chad",
+      "nameAr": "تشاد",
+      "continent": "AF",
+      "defaultMethod": "muslim_world_league",
+      "methodSource": "default",
+      "defaultMadhab": "shafi"
+    },
+    "TF": {
+      "iso2": "TF",
+      "iso3": "ATF",
+      "name": "French Southern Territories",
+      "nameAr": "الأقاليم الجنوبية الفرنسية",
+      "continent": "AN",
+      "defaultMethod": "muslim_world_league",
+      "methodSource": "default",
+      "defaultMadhab": "shafi"
+    },
+    "TG": {
+      "iso2": "TG",
+      "iso3": "TGO",
+      "name": "Togo",
+      "nameAr": "توغو",
+      "continent": "AF",
+      "defaultMethod": "muslim_world_league",
+      "methodSource": "default",
+      "defaultMadhab": "shafi"
+    },
+    "TH": {
+      "iso2": "TH",
+      "iso3": "THA",
+      "name": "Thailand",
+      "nameAr": "تايلاند",
+      "continent": "AS",
+      "defaultMethod": "muslim_world_league",
+      "methodSource": "default",
+      "defaultMadhab": "shafi"
+    },
+    "TJ": {
+      "iso2": "TJ",
+      "iso3": "TJK",
+      "name": "Tajikistan",
+      "nameAr": "طاجيكستان",
+      "continent": "AS",
+      "defaultMethod": "muslim_world_league",
+      "methodSource": "default",
+      "defaultMadhab": "hanafi"
+    },
+    "TK": {
+      "iso2": "TK",
+      "iso3": "TKL",
+      "name": "Tokelau",
+      "nameAr": "توكيلاو",
+      "continent": "OC",
+      "defaultMethod": "muslim_world_league",
+      "methodSource": "default",
+      "defaultMadhab": "shafi"
+    },
+    "TL": {
+      "iso2": "TL",
+      "iso3": "TLS",
+      "name": "Timor Leste",
+      "nameAr": "تيمور - ليشتي",
+      "continent": "OC",
+      "defaultMethod": "muslim_world_league",
+      "methodSource": "default",
+      "defaultMadhab": "shafi",
+      "aliasesEn": [
+        "East Timor"
+      ]
+    },
+    "TM": {
+      "iso2": "TM",
+      "iso3": "TKM",
+      "name": "Turkmenistan",
+      "nameAr": "تركمانستان",
+      "continent": "AS",
+      "defaultMethod": "muslim_world_league",
+      "methodSource": "default",
+      "defaultMadhab": "hanafi"
+    },
+    "TN": {
+      "iso2": "TN",
+      "iso3": "TUN",
+      "name": "Tunisia",
+      "nameAr": "تونس",
+      "continent": "AF",
+      "defaultMethod": "tunisia",
+      "methodSource": "national",
+      "defaultMadhab": "shafi"
+    },
+    "TO": {
+      "iso2": "TO",
+      "iso3": "TON",
+      "name": "Tonga",
+      "nameAr": "تونغا",
+      "continent": "OC",
+      "defaultMethod": "muslim_world_league",
+      "methodSource": "default",
+      "defaultMadhab": "shafi"
+    },
+    "TR": {
+      "iso2": "TR",
+      "iso3": "TUR",
+      "name": "Turkey",
+      "nameAr": "تركيا",
+      "continent": "AS",
+      "defaultMethod": "turkey",
+      "methodSource": "national",
+      "defaultMadhab": "hanafi",
+      "aliasesEn": [
+        "Türkiye",
+        "Turkiye"
+      ]
+    },
+    "TT": {
+      "iso2": "TT",
+      "iso3": "TTO",
+      "name": "Trinidad and Tobago",
+      "nameAr": "ترينيداد وتوباغو",
+      "continent": "NA",
+      "defaultMethod": "muslim_world_league",
+      "methodSource": "default",
+      "defaultMadhab": "shafi"
+    },
+    "TV": {
+      "iso2": "TV",
+      "iso3": "TUV",
+      "name": "Tuvalu",
+      "nameAr": "توفالو",
+      "continent": "OC",
+      "defaultMethod": "muslim_world_league",
+      "methodSource": "default",
+      "defaultMadhab": "shafi"
+    },
+    "TW": {
+      "iso2": "TW",
+      "iso3": "TWN",
+      "name": "Taiwan",
+      "nameAr": "تايوان",
+      "continent": "AS",
+      "defaultMethod": "muslim_world_league",
+      "methodSource": "default",
+      "defaultMadhab": "shafi"
+    },
+    "TZ": {
+      "iso2": "TZ",
+      "iso3": "TZA",
+      "name": "Tanzania",
+      "nameAr": "تنزانيا",
+      "continent": "AF",
+      "defaultMethod": "muslim_world_league",
+      "methodSource": "default",
+      "defaultMadhab": "shafi",
+      "aliasesEn": [
+        "United Republic of Tanzania"
+      ]
+    },
+    "UA": {
+      "iso2": "UA",
+      "iso3": "UKR",
+      "name": "Ukraine",
+      "nameAr": "أوكرانيا",
+      "continent": "EU",
+      "defaultMethod": "muslim_world_league",
+      "methodSource": "default",
+      "defaultMadhab": "shafi"
+    },
+    "UG": {
+      "iso2": "UG",
+      "iso3": "UGA",
+      "name": "Uganda",
+      "nameAr": "أوغندا",
+      "continent": "AF",
+      "defaultMethod": "muslim_world_league",
+      "methodSource": "default",
+      "defaultMadhab": "shafi"
+    },
+    "UM": {
+      "iso2": "UM",
+      "iso3": "UMI",
+      "name": "United States Minor Outlying Islands",
+      "nameAr": "جزر الولايات المتحدة النائية",
+      "continent": "OC",
+      "defaultMethod": "muslim_world_league",
+      "methodSource": "default",
+      "defaultMadhab": "shafi"
+    },
+    "US": {
+      "iso2": "US",
+      "iso3": "USA",
+      "name": "United States",
+      "nameAr": "الولايات المتحدة",
+      "continent": "NA",
+      "defaultMethod": "north_america",
+      "methodSource": "national",
+      "defaultMadhab": "shafi",
+      "aliasesEn": [
+        "USA",
+        "United States of America",
+        "America"
+      ],
+      "aliasesAr": [
+        "أمريكا",
+        "الولايات المتحدة الأمريكية"
+      ]
+    },
+    "UY": {
+      "iso2": "UY",
+      "iso3": "URY",
+      "name": "Uruguay",
+      "nameAr": "أورغواي",
+      "continent": "SA",
+      "defaultMethod": "muslim_world_league",
+      "methodSource": "default",
+      "defaultMadhab": "shafi"
+    },
+    "UZ": {
+      "iso2": "UZ",
+      "iso3": "UZB",
+      "name": "Uzbekistan",
+      "nameAr": "أوزبكستان",
+      "continent": "AS",
+      "defaultMethod": "muslim_world_league",
+      "methodSource": "default",
+      "defaultMadhab": "hanafi"
+    },
+    "VA": {
+      "iso2": "VA",
+      "iso3": "VAT",
+      "name": "Vatican",
+      "nameAr": "الفاتيكان",
+      "continent": "EU",
+      "defaultMethod": "muslim_world_league",
+      "methodSource": "default",
+      "defaultMadhab": "shafi",
+      "aliasesEn": [
+        "Vatican City",
+        "Holy See"
+      ]
+    },
+    "VC": {
+      "iso2": "VC",
+      "iso3": "VCT",
+      "name": "Saint Vincent and the Grenadines",
+      "nameAr": "سانت فنسنت وجزر غرينادين",
+      "continent": "NA",
+      "defaultMethod": "muslim_world_league",
+      "methodSource": "default",
+      "defaultMadhab": "shafi"
+    },
+    "VE": {
+      "iso2": "VE",
+      "iso3": "VEN",
+      "name": "Venezuela",
+      "nameAr": "فنزويلا",
+      "continent": "SA",
+      "defaultMethod": "muslim_world_league",
+      "methodSource": "default",
+      "defaultMadhab": "shafi",
+      "aliasesEn": [
+        "Venezuela (Bolivarian Republic of)"
+      ]
+    },
+    "VG": {
+      "iso2": "VG",
+      "iso3": "VGB",
+      "name": "British Virgin Islands",
+      "nameAr": "جزر فيرجن البريطانية",
+      "continent": "NA",
+      "defaultMethod": "muslim_world_league",
+      "methodSource": "default",
+      "defaultMadhab": "shafi"
+    },
+    "VI": {
+      "iso2": "VI",
+      "iso3": "VIR",
+      "name": "U.S. Virgin Islands",
+      "nameAr": "جزر فيرجن الأمريكية",
+      "continent": "NA",
+      "defaultMethod": "muslim_world_league",
+      "methodSource": "default",
+      "defaultMadhab": "shafi"
+    },
+    "VN": {
+      "iso2": "VN",
+      "iso3": "VNM",
+      "name": "Vietnam",
+      "nameAr": "فيتنام",
+      "continent": "AS",
+      "defaultMethod": "muslim_world_league",
+      "methodSource": "default",
+      "defaultMadhab": "shafi",
+      "aliasesEn": [
+        "Viet Nam"
+      ]
+    },
+    "VU": {
+      "iso2": "VU",
+      "iso3": "VUT",
+      "name": "Vanuatu",
+      "nameAr": "فانواتو",
+      "continent": "OC",
+      "defaultMethod": "muslim_world_league",
+      "methodSource": "default",
+      "defaultMadhab": "shafi"
+    },
+    "WF": {
+      "iso2": "WF",
+      "iso3": "WLF",
+      "name": "Wallis and Futuna",
+      "nameAr": "جزر والس وفوتونا",
+      "continent": "OC",
+      "defaultMethod": "muslim_world_league",
+      "methodSource": "default",
+      "defaultMadhab": "shafi"
+    },
+    "WS": {
+      "iso2": "WS",
+      "iso3": "WSM",
+      "name": "Samoa",
+      "nameAr": "ساموا",
+      "continent": "OC",
+      "defaultMethod": "muslim_world_league",
+      "methodSource": "default",
+      "defaultMadhab": "shafi"
+    },
+    "YE": {
+      "iso2": "YE",
+      "iso3": "YEM",
+      "name": "Yemen",
+      "nameAr": "اليمن",
+      "continent": "AS",
+      "defaultMethod": "umm_al_qura",
+      "methodSource": "regional",
+      "defaultMadhab": "shafi",
+      "notes": "Umm al-Qura is the Gulf default used for Yemen."
+    },
+    "YT": {
+      "iso2": "YT",
+      "iso3": "MYT",
+      "name": "Mayotte",
+      "nameAr": "مايوت",
+      "continent": "AF",
+      "defaultMethod": "muslim_world_league",
+      "methodSource": "default",
+      "defaultMadhab": "shafi"
+    },
+    "ZA": {
+      "iso2": "ZA",
+      "iso3": "ZAF",
+      "name": "South Africa",
+      "nameAr": "جنوب أفريقيا",
+      "continent": "AF",
+      "defaultMethod": "muslim_world_league",
+      "methodSource": "default",
+      "defaultMadhab": "shafi"
+    },
+    "ZM": {
+      "iso2": "ZM",
+      "iso3": "ZMB",
+      "name": "Zambia",
+      "nameAr": "زامبيا",
+      "continent": "AF",
+      "defaultMethod": "muslim_world_league",
+      "methodSource": "default",
+      "defaultMadhab": "shafi"
+    },
+    "ZW": {
+      "iso2": "ZW",
+      "iso3": "ZWE",
+      "name": "Zimbabwe",
+      "nameAr": "زيمبابوي",
+      "continent": "AF",
+      "defaultMethod": "muslim_world_league",
+      "methodSource": "default",
+      "defaultMadhab": "shafi"
+    },
+    "CS": {
+      "iso2": "CS",
+      "iso3": "SCG",
+      "name": "Serbia and Montenegro",
+      "continent": "EU",
+      "defaultMethod": "muslim_world_league",
+      "methodSource": "default",
+      "defaultMadhab": "shafi"
+    },
+    "AN": {
+      "iso2": "AN",
+      "iso3": "ANT",
+      "name": "Netherlands Antilles",
+      "continent": "NA",
+      "defaultMethod": "muslim_world_league",
+      "methodSource": "default",
+      "defaultMadhab": "shafi"
+    }
+  }
+}

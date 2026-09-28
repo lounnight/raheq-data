@@ -1,0 +1,368 @@
+{
+  "schemaVersion": 1,
+  "fallbackMethod": "muslim_world_league",
+  "coordinateSystem": "WGS84",
+  "asr": {
+    "shafi": {
+      "shadowFactor": 1,
+      "description": "Shafi'i, Maliki, Hanbali and Ja'fari: Asr begins when an object's shadow equals its own length plus the shadow length at noon.",
+      "identifier": "shafi"
+    },
+    "hanafi": {
+      "shadowFactor": 2,
+      "description": "Hanafi: Asr begins when an object's shadow is twice its own length plus the shadow length at noon.",
+      "identifier": "hanafi"
+    }
+  },
+  "runtime": {
+    "implementation": "src/services/prayer-times.js",
+    "apiParameter": "method",
+    "reads": [
+      "fajrAngle",
+      "ishaAngle",
+      "ishaMinutes",
+      "ramadanIshaMinutes"
+    ],
+    "asrMadhabParameter": "madhab",
+    "maghribRule": "sunset",
+    "highLatitudeFallback": "angle_based",
+    "rounding": "nearest_minute",
+    "notApplied": [
+      "tuning",
+      "rounding",
+      "maghribAngle",
+      "maghribMinutes",
+      "midnight",
+      "imsak"
+    ],
+    "note": "Fields listed in notApplied are published for information only: the current runtime does not implement them, so its output can differ from the authority by a few minutes."
+  },
+  "byAladhanId": {
+    "0": null,
+    "1": "karachi",
+    "2": "north_america",
+    "3": "muslim_world_league",
+    "4": "umm_al_qura",
+    "5": "egyptian",
+    "7": null,
+    "8": "gulf_region",
+    "9": "kuwait",
+    "10": "qatar",
+    "11": "singapore",
+    "12": "france",
+    "13": "turkey",
+    "14": "russia",
+    "15": "moonsighting_committee",
+    "16": "dubai",
+    "17": "jakim",
+    "18": "tunisia",
+    "19": "algeria",
+    "20": "indonesia",
+    "21": "morocco",
+    "22": null,
+    "23": null
+  },
+  "methods": {
+    "muslim_world_league": {
+      "id": "muslim_world_league",
+      "name": "Muslim World League",
+      "nameAr": "رابطة العالم الإسلامي",
+      "authority": "Muslim World League (MWL), 2007 consensus",
+      "aladhanMethodId": 3,
+      "fajrAngle": 18,
+      "ishaAngle": 17,
+      "maghribMinutes": 0,
+      "maghribRule": "sunset",
+      "tuning": {
+        "dhuhr": 1
+      },
+      "notes": "The most widely used international default."
+    },
+    "north_america": {
+      "id": "north_america",
+      "name": "Islamic Society of North America (ISNA)",
+      "nameAr": "الجمعية الإسلامية لأمريكا الشمالية",
+      "authority": "Islamic Society of North America (ISNA)",
+      "aladhanMethodId": 2,
+      "fajrAngle": 15,
+      "ishaAngle": 15,
+      "maghribMinutes": 0,
+      "maghribRule": "sunset",
+      "tuning": {
+        "dhuhr": 1
+      },
+      "notes": "Also common at high latitudes, where an 18° Fajr is not reachable in summer."
+    },
+    "egyptian": {
+      "id": "egyptian",
+      "name": "Egyptian General Authority of Survey",
+      "nameAr": "الهيئة المصرية العامة للمساحة",
+      "authority": "Egyptian General Authority of Survey",
+      "aladhanMethodId": 5,
+      "fajrAngle": 19.5,
+      "ishaAngle": 17.5,
+      "maghribMinutes": 0,
+      "maghribRule": "sunset",
+      "tuning": {
+        "dhuhr": 1
+      }
+    },
+    "umm_al_qura": {
+      "id": "umm_al_qura",
+      "name": "Umm al-Qura University, Makkah",
+      "nameAr": "أم القرى، مكة المكرمة",
+      "authority": "Umm al-Qura University, Makkah (Saudi Arabia)",
+      "aladhanMethodId": 4,
+      "fajrAngle": 18.5,
+      "ishaMinutes": 90,
+      "ramadanIshaMinutes": 120,
+      "maghribMinutes": 0,
+      "maghribRule": "sunset",
+      "notes": "Isha is 90 minutes after Maghrib, and 120 minutes during Ramadan (the runtime switches automatically)."
+    },
+    "karachi": {
+      "id": "karachi",
+      "name": "University of Islamic Sciences, Karachi",
+      "nameAr": "جامعة العلوم الإسلامية بكراتشي",
+      "authority": "University of Islamic Sciences, Karachi (Pakistan)",
+      "aladhanMethodId": 1,
+      "fajrAngle": 18,
+      "ishaAngle": 18,
+      "maghribMinutes": 0,
+      "maghribRule": "sunset",
+      "tuning": {
+        "dhuhr": 1
+      }
+    },
+    "gulf_region": {
+      "id": "gulf_region",
+      "name": "Gulf Region",
+      "nameAr": "منطقة الخليج",
+      "authority": "Gulf Region convention (AlAdhan reference location in the United Arab Emirates)",
+      "aladhanMethodId": 8,
+      "fajrAngle": 19.5,
+      "ishaMinutes": 90,
+      "maghribMinutes": 0,
+      "maghribRule": "sunset",
+      "notes": "AlAdhan documents this method as the closest match to UAE Awqaf/IACAD tables."
+    },
+    "kuwait": {
+      "id": "kuwait",
+      "name": "Kuwait",
+      "nameAr": "الكويت",
+      "authority": "Kuwait (Ministry of Awqaf and Islamic Affairs)",
+      "aladhanMethodId": 9,
+      "fajrAngle": 18,
+      "ishaAngle": 17.5,
+      "maghribMinutes": 0,
+      "maghribRule": "sunset"
+    },
+    "qatar": {
+      "id": "qatar",
+      "name": "Qatar",
+      "nameAr": "قطر",
+      "authority": "Qatar (Qatar Calendar House / Ministry of Awqaf and Islamic Affairs)",
+      "aladhanMethodId": 10,
+      "fajrAngle": 18,
+      "ishaMinutes": 90,
+      "maghribMinutes": 0,
+      "maghribRule": "sunset",
+      "notes": "Isha is 90 minutes after Maghrib; the Ramadan interval is not changed."
+    },
+    "singapore": {
+      "id": "singapore",
+      "name": "Majlis Ugama Islam Singapura (MUIS)",
+      "nameAr": "المجلس الإسلامي السنغافوري",
+      "authority": "Majlis Ugama Islam Singapura (MUIS)",
+      "aladhanMethodId": 11,
+      "fajrAngle": 20,
+      "ishaAngle": 18,
+      "maghribMinutes": 0,
+      "maghribRule": "sunset",
+      "tuning": {
+        "dhuhr": 1
+      },
+      "rounding": "up",
+      "notes": "adhan-js rounds MUIS times up to the next minute; the runtime rounds to the nearest."
+    },
+    "france": {
+      "id": "france",
+      "name": "Union des Organisations Islamiques de France (UOIF)",
+      "nameAr": "اتحاد المنظمات الإسلامية في فرنسا",
+      "authority": "Union des Organisations Islamiques de France (UOIF)",
+      "aladhanMethodId": 12,
+      "fajrAngle": 12,
+      "ishaAngle": 12,
+      "maghribMinutes": 0,
+      "maghribRule": "sunset",
+      "notes": "A low angle chosen for high latitudes; suitable for France and neighbouring regions."
+    },
+    "turkey": {
+      "id": "turkey",
+      "name": "Diyanet İşleri Başkanlığı (Turkey)",
+      "nameAr": "رئاسة الشؤون الدينية التركية",
+      "authority": "Diyanet İşleri Başkanlığı (Presidency of Religious Affairs, Turkey)",
+      "aladhanMethodId": 13,
+      "fajrAngle": 18,
+      "ishaAngle": 17,
+      "maghribMinutes": 0,
+      "maghribRule": "sunset",
+      "tuning": {
+        "sunrise": -7,
+        "dhuhr": 5,
+        "asr": 4,
+        "maghrib": 7
+      },
+      "notes": "Diyanet publishes additional minute tunings that the runtime does not apply."
+    },
+    "russia": {
+      "id": "russia",
+      "name": "Spiritual Administration of Muslims of Russia",
+      "nameAr": "الإدارة الدينية لمسلمي روسيا",
+      "authority": "Spiritual Administration of Muslims of Russia",
+      "aladhanMethodId": 14,
+      "fajrAngle": 16,
+      "ishaAngle": 15,
+      "maghribMinutes": 0,
+      "maghribRule": "sunset"
+    },
+    "moonsighting_committee": {
+      "id": "moonsighting_committee",
+      "name": "Moonsighting Committee Worldwide (Moonsighting.com)",
+      "nameAr": "لجنة رؤية الهلال العالمية",
+      "authority": "Moonsighting Committee Worldwide (moonsighting.com)",
+      "aladhanMethodId": 15,
+      "fajrAngle": 18,
+      "ishaAngle": 18,
+      "maghribMinutes": 0,
+      "maghribRule": "sunset",
+      "tuning": {
+        "dhuhr": 5,
+        "maghrib": 3
+      },
+      "notes": "The full Moonsighting.com method (shafaq-based Isha and its own high-latitude rules) is approximated by 18°/18°; adhan-js additionally applies dhuhr +5 and maghrib +3."
+    },
+    "dubai": {
+      "id": "dubai",
+      "name": "Dubai (IACAD)",
+      "nameAr": "دبي",
+      "authority": "Dubai Islamic Affairs and Charitable Activities Department (IACAD)",
+      "aladhanMethodId": 16,
+      "fajrAngle": 18.2,
+      "ishaAngle": 18.2,
+      "maghribMinutes": 0,
+      "maghribRule": "sunset",
+      "tuning": {
+        "sunrise": -3,
+        "dhuhr": 3,
+        "asr": 3,
+        "maghrib": 3
+      },
+      "notes": "IACAD publishes additional minute tunings that the runtime does not apply."
+    },
+    "jakim": {
+      "id": "jakim",
+      "name": "Jabatan Kemajuan Islam Malaysia (JAKIM)",
+      "nameAr": "إدارة التنمية الإسلامية الماليزية",
+      "authority": "Jabatan Kemajuan Islam Malaysia (JAKIM)",
+      "aladhanMethodId": 17,
+      "fajrAngle": 20,
+      "ishaAngle": 18,
+      "maghribMinutes": 0,
+      "maghribRule": "sunset"
+    },
+    "tunisia": {
+      "id": "tunisia",
+      "name": "Tunisia",
+      "nameAr": "تونس",
+      "authority": "Tunisian Ministry of Religious Affairs",
+      "aladhanMethodId": 18,
+      "fajrAngle": 18,
+      "ishaAngle": 18,
+      "maghribMinutes": 0,
+      "maghribRule": "sunset"
+    },
+    "algeria": {
+      "id": "algeria",
+      "name": "Algeria",
+      "nameAr": "الجزائر",
+      "authority": "Algerian Ministry of Religious Affairs and Wakfs",
+      "aladhanMethodId": 19,
+      "fajrAngle": 18,
+      "ishaAngle": 17,
+      "maghribMinutes": 0,
+      "maghribRule": "sunset"
+    },
+    "indonesia": {
+      "id": "indonesia",
+      "name": "Kementerian Agama Republik Indonesia (KEMENAG)",
+      "nameAr": "وزارة الشؤون الدينية الإندونيسية",
+      "authority": "Kementerian Agama Republik Indonesia (KEMENAG)",
+      "aladhanMethodId": 20,
+      "fajrAngle": 20,
+      "ishaAngle": 18,
+      "maghribMinutes": 0,
+      "maghribRule": "sunset",
+      "notes": "KEMENAG adds an ihtiyati safety margin of 2 minutes; not applied by the runtime."
+    },
+    "morocco": {
+      "id": "morocco",
+      "name": "Morocco",
+      "nameAr": "المغرب",
+      "authority": "Moroccan Ministry of Habous and Islamic Affairs",
+      "aladhanMethodId": 21,
+      "fajrAngle": 19,
+      "ishaAngle": 17,
+      "maghribMinutes": 0,
+      "maghribRule": "sunset"
+    }
+  },
+  "unimplemented": {
+    "tehran": {
+      "id": "tehran",
+      "name": "Institute of Geophysics, University of Tehran",
+      "nameAr": "معهد الجيوفيزياء، جامعة طهران",
+      "authority": "Institute of Geophysics, University of Tehran (Iran)",
+      "aladhanMethodId": 7,
+      "fajrAngle": 17.7,
+      "ishaAngle": 14,
+      "maghribAngle": 4.5,
+      "midnightRule": "jafari",
+      "reason": "Requires Maghrib computed from an angle (4.5°). The runtime always derives Maghrib from sunset, so this method cannot be reproduced yet."
+    },
+    "jafari": {
+      "id": "jafari",
+      "name": "Shia Ithna-Ashari, Leva Institute, Qum",
+      "nameAr": "الشيعة الإثنا عشرية، معهد ليفا، قم",
+      "authority": "Shia Ithna-Ashari (Leva Institute, Qum)",
+      "aladhanMethodId": 0,
+      "fajrAngle": 16,
+      "ishaAngle": 14,
+      "maghribAngle": 4,
+      "midnightRule": "jafari",
+      "reason": "Requires Maghrib computed from an angle (4°)."
+    },
+    "portugal": {
+      "id": "portugal",
+      "name": "Comunidade Islamica de Lisboa",
+      "nameAr": "الجالية الإسلامية في لشبونة",
+      "authority": "Comunidade Islamica de Lisboa (Portugal)",
+      "aladhanMethodId": 22,
+      "fajrAngle": 18,
+      "ishaMinutes": 77,
+      "maghribMinutes": 3,
+      "reason": "Uses a fixed Maghrib offset (sunset + 3 min), which the runtime does not support."
+    },
+    "jordan": {
+      "id": "jordan",
+      "name": "Ministry of Awqaf, Islamic Affairs and Holy Places (Jordan)",
+      "nameAr": "وزارة الأوقاف والشؤون والمقدسات الإسلامية (الأردن)",
+      "authority": "Jordanian Ministry of Awqaf, Islamic Affairs and Holy Places",
+      "aladhanMethodId": 23,
+      "fajrAngle": 18,
+      "ishaAngle": 18,
+      "maghribMinutes": 5,
+      "reason": "Uses a fixed Maghrib offset (sunset + 5 min), which the runtime does not support."
+    }
+  }
+}
