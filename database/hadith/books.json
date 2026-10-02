@@ -1,0 +1,58 @@
+{
+  "books": [
+    {
+      "id": "bukhari",
+      "name_ar": "صحيح البخاري",
+      "records": 7555,
+      "chapters": 3790
+    },
+    {
+      "id": "muslim",
+      "name_ar": "صحيح مسلم",
+      "records": 7354,
+      "chapters": 1328
+    },
+    {
+      "id": "abudawud",
+      "name_ar": "سنن أبي داود",
+      "records": 5270,
+      "chapters": 1874
+    },
+    {
+      "id": "tirmidhi",
+      "name_ar": "جامع الترمذي",
+      "records": 3896,
+      "chapters": 1984
+    },
+    {
+      "id": "nasai",
+      "name_ar": "سنن النسائي",
+      "records": 5678,
+      "chapters": 2509
+    },
+    {
+      "id": "ibnmajah",
+      "name_ar": "سنن ابن ماجه",
+      "records": 4337,
+      "chapters": 1490
+    },
+    {
+      "id": "malik",
+      "name_ar": "موطأ مالك",
+      "records": 1828,
+      "chapters": 60
+    },
+    {
+      "id": "ahmad",
+      "name_ar": "مسند أحمد",
+      "records": 25801,
+      "chapters": 8
+    },
+    {
+      "id": "darimi",
+      "name_ar": "سنن الدارمي",
+      "records": 3384,
+      "chapters": 24
+    }
+  ]
+}

@@ -16,6 +16,9 @@ Arabic hadith of the Nine Books, one JSON file per book:
 
 The chapters (أبواب) of every book are kept beside the narrations, in
 `chapters/<book>.json` — one metadata file per book, never a field of a record.
+`books.json` is the manifest of the dataset: the nine books, their Arabic names and
+how many narrations each one holds, so that a reader can list the dataset without
+reading all of it.
 
 ## Record shape
 
@@ -205,7 +208,7 @@ Sunan ad-Darimi — so that a reader can tell "graded as part of the book" from
 ## Building and validating
 
 ```bash
-npm run build:hadith      # writes database/hadith/<book>.json and chapters/<book>.json
+npm run build:hadith      # writes database/hadith/<book>.json, chapters/<book>.json and books.json
 npm run validate:hadith   # checks the written files
 npm test                  # segmentation / narrator / grade / chapter unit tests
 ```
@@ -224,7 +227,8 @@ identified narrators and of documented chapters, how many chapters it wrote, how
 many of their ranges overlap or start out of order, how many lost their editor's
 commentary, and how many could not be split at all.
 
-`npm run validate:hadith` fails (exit code 1) when a record does not have exactly
+`npm run validate:hadith` fails (exit code 1) when `books.json` does not list the
+nine books with the counts their files hold, when a record does not have exactly
 the four fields, when a field is not a string, when the Arabic text is missing or
 contains Latin characters, when `sanad + matn` no longer reconstructs the published
 narration, or when the chapter metadata of a book does not hold exactly the three
