@@ -1,0 +1,124 @@
+{
+  "chapters": [
+    {
+      "chapter_name": "كِتَاب الطَّهَارَةِ",
+      "hadith_from": 1,
+      "hadith_to": 510
+    },
+    {
+      "chapter_name": "كِتَاب الصَّلَاةِ",
+      "hadith_from": 511,
+      "hadith_to": 920
+    },
+    {
+      "chapter_name": "مِنْ كِتَابِ الزَّكَاةِ",
+      "hadith_from": 921,
+      "hadith_to": 978
+    },
+    {
+      "chapter_name": "وَمِنْ كِتَابِ الصَّوْمِ",
+      "hadith_from": 979,
+      "hadith_to": 1076
+    },
+    {
+      "chapter_name": "مِنْ كِتَابِ الْمَنَاسِكِ",
+      "hadith_from": 1077,
+      "hadith_to": 1226
+    },
+    {
+      "chapter_name": "مِنْ كِتَابِ الْأَضَاحِيِّ",
+      "hadith_from": 1227,
+      "hadith_to": 1281
+    },
+    {
+      "chapter_name": "وَمِنْ كِتَابِ الصَّيْدِ",
+      "hadith_from": 1282,
+      "hadith_to": 1297
+    },
+    {
+      "chapter_name": "وَمِنْ كِتَابِ الْأَطْعِمَةِ",
+      "hadith_from": 1298,
+      "hadith_to": 1359
+    },
+    {
+      "chapter_name": "وَمِنْ كِتَابِ الْأَشْرِبَةِ",
+      "hadith_from": 1360,
+      "hadith_to": 1408
+    },
+    {
+      "chapter_name": "وَمِنْ كِتَابِ الرُّؤْيَا",
+      "hadith_from": 1409,
+      "hadith_to": 1435
+    },
+    {
+      "chapter_name": "وَمِنْ كِتَابِ النِّكَاحِ",
+      "hadith_from": 1436,
+      "hadith_to": 1527
+    },
+    {
+      "chapter_name": "وَمِنْ كِتَابِ الطَّلَاقِ",
+      "hadith_from": 1528,
+      "hadith_to": 1559
+    },
+    {
+      "chapter_name": "وَمِنْ كِتَابِ الْحُدُودِ",
+      "hadith_from": 1560,
+      "hadith_to": 1592
+    },
+    {
+      "chapter_name": "وَمِنْ كِتَابِ النُّذُورِ وَالْأَيْمَانِ",
+      "hadith_from": 1593,
+      "hadith_to": 1610
+    },
+    {
+      "chapter_name": "وَمِنْ كِتَابِ الدِّيَاتِ",
+      "hadith_from": 1611,
+      "hadith_to": 1648
+    },
+    {
+      "chapter_name": "كِتَاب الْجِهَادِ",
+      "hadith_from": 1649,
+      "hadith_to": 1693
+    },
+    {
+      "chapter_name": "وَمِنْ كِتَابِ السِّيَرِ",
+      "hadith_from": 1694,
+      "hadith_to": 1784
+    },
+    {
+      "chapter_name": "وَمِنْ كِتَابِ الْبُيُوعِ",
+      "hadith_from": 1785,
+      "hadith_to": 1880
+    },
+    {
+      "chapter_name": "وَمِنْ كِتَابِ الِاسْتِئْذَانِ",
+      "hadith_from": 1881,
+      "hadith_to": 1955
+    },
+    {
+      "chapter_name": "وَمِنْ كِتَابِ الرِّقَاقِ",
+      "hadith_from": 1956,
+      "hadith_to": 2092
+    },
+    {
+      "chapter_name": "مِنْ كِتَابِ الْفَرَائِضِ",
+      "hadith_from": 2093,
+      "hadith_to": 2414
+    },
+    {
+      "chapter_name": "مِنْ كِتَابِ الْوَصَايَا",
+      "hadith_from": 2415,
+      "hadith_to": 2540
+    },
+    {
+      "chapter_name": "وَمِنْ كِتَابِ فَضَائِلِ الْقُرْآنِ",
+      "hadith_from": 2541,
+      "hadith_to": 2736
+    },
+    {
+      "chapter_name": "سنن الدارمي",
+      "hadith_from": 2737,
+      "hadith_to": 3384
+    }
+  ]
+}

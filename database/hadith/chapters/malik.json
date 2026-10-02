@@ -1,0 +1,304 @@
+{
+  "chapters": [
+    {
+      "chapter_name": "كتاب وقوت الصلاة",
+      "hadith_from": 1,
+      "hadith_to": 31
+    },
+    {
+      "chapter_name": "كتاب الطهارة",
+      "hadith_from": 32,
+      "hadith_to": 145
+    },
+    {
+      "chapter_name": "كتاب الصلاة",
+      "hadith_from": 146,
+      "hadith_to": 220
+    },
+    {
+      "chapter_name": "كتاب السهو",
+      "hadith_from": 221,
+      "hadith_to": 223
+    },
+    {
+      "chapter_name": "كتاب الجمعة",
+      "hadith_from": 224,
+      "hadith_to": 244
+    },
+    {
+      "chapter_name": "كتاب الصلاة فى رمضان",
+      "hadith_from": 245,
+      "hadith_to": 252
+    },
+    {
+      "chapter_name": "كتاب صلاة الليل",
+      "hadith_from": 253,
+      "hadith_to": 285
+    },
+    {
+      "chapter_name": "كتاب صلاة الجماعة",
+      "hadith_from": 286,
+      "hadith_to": 324
+    },
+    {
+      "chapter_name": "كتاب قصر الصلاة فى السفر",
+      "hadith_from": 325,
+      "hadith_to": 426
+    },
+    {
+      "chapter_name": "كتاب العيدين",
+      "hadith_from": 427,
+      "hadith_to": 439
+    },
+    {
+      "chapter_name": "كتاب صلاة الخوف",
+      "hadith_from": 440,
+      "hadith_to": 443
+    },
+    {
+      "chapter_name": "كتاب صلاة الكسوف",
+      "hadith_from": 444,
+      "hadith_to": 447
+    },
+    {
+      "chapter_name": "كتاب الاستسقاء",
+      "hadith_from": 448,
+      "hadith_to": 453
+    },
+    {
+      "chapter_name": "كتاب القبلة",
+      "hadith_from": 454,
+      "hadith_to": 468
+    },
+    {
+      "chapter_name": "كتاب القرآن",
+      "hadith_from": 469,
+      "hadith_to": 516
+    },
+    {
+      "chapter_name": "كتاب الجنائز",
+      "hadith_from": 517,
+      "hadith_to": 573
+    },
+    {
+      "chapter_name": "كتاب الزكاة",
+      "hadith_from": 574,
+      "hadith_to": 625
+    },
+    {
+      "chapter_name": "كتاب الصيام",
+      "hadith_from": 626,
+      "hadith_to": 683
+    },
+    {
+      "chapter_name": "كتاب الاعتكاف",
+      "hadith_from": 684,
+      "hadith_to": 697
+    },
+    {
+      "chapter_name": "كتاب الحج",
+      "hadith_from": 698,
+      "hadith_to": 948
+    },
+    {
+      "chapter_name": "كتاب الجهاد",
+      "hadith_from": 949,
+      "hadith_to": 997
+    },
+    {
+      "chapter_name": "كتاب النذور والأيمان",
+      "hadith_from": 998,
+      "hadith_to": 1015
+    },
+    {
+      "chapter_name": "كتاب الضحايا",
+      "hadith_from": 1016,
+      "hadith_to": 1028
+    },
+    {
+      "chapter_name": "كتاب الذبائح",
+      "hadith_from": 1029,
+      "hadith_to": 1038
+    },
+    {
+      "chapter_name": "كتاب الصيد",
+      "hadith_from": 1039,
+      "hadith_to": 1051
+    },
+    {
+      "chapter_name": "كتاب العقيقة",
+      "hadith_from": 1052,
+      "hadith_to": 1058
+    },
+    {
+      "chapter_name": "كتاب الفرائض",
+      "hadith_from": 1059,
+      "hadith_to": 1074
+    },
+    {
+      "chapter_name": "كتاب النكاح",
+      "hadith_from": 1075,
+      "hadith_to": 1133
+    },
+    {
+      "chapter_name": "كتاب الطلاق",
+      "hadith_from": 1134,
+      "hadith_to": 1251
+    },
+    {
+      "chapter_name": "كتاب الرضاع",
+      "hadith_from": 1252,
+      "hadith_to": 1269
+    },
+    {
+      "chapter_name": "كتاب البيوع",
+      "hadith_from": 1270,
+      "hadith_to": 1364
+    },
+    {
+      "chapter_name": "كتاب القراض",
+      "hadith_from": 1365,
+      "hadith_to": 1366
+    },
+    {
+      "chapter_name": "كتاب المساقاة",
+      "hadith_from": 1367,
+      "hadith_to": 1367
+    },
+    {
+      "chapter_name": "كتاب كراء الأرض",
+      "hadith_from": 1368,
+      "hadith_to": 1372
+    },
+    {
+      "chapter_name": "كتاب الشفعة",
+      "hadith_from": 1373,
+      "hadith_to": 1376
+    },
+    {
+      "chapter_name": "كتاب الأقضية",
+      "hadith_from": 1377,
+      "hadith_to": 1432
+    },
+    {
+      "chapter_name": "كتاب الوصية",
+      "hadith_from": 1433,
+      "hadith_to": 1441
+    },
+    {
+      "chapter_name": "كتاب العتق والولاء",
+      "hadith_from": 1442,
+      "hadith_to": 1466
+    },
+    {
+      "chapter_name": "كتاب المكاتب",
+      "hadith_from": 1467,
+      "hadith_to": 1473
+    },
+    {
+      "chapter_name": "كتاب المدبر",
+      "hadith_from": 1474,
+      "hadith_to": 1476
+    },
+    {
+      "chapter_name": "كتاب الحدود",
+      "hadith_from": 1477,
+      "hadith_to": 1511
+    },
+    {
+      "chapter_name": "كتاب الأشربة",
+      "hadith_from": 1512,
+      "hadith_to": 1526
+    },
+    {
+      "chapter_name": "كتاب العقول",
+      "hadith_from": 1527,
+      "hadith_to": 1569
+    },
+    {
+      "chapter_name": "كتاب القسامة",
+      "hadith_from": 1570,
+      "hadith_to": 1570
+    },
+    {
+      "chapter_name": "كتاب الْمَدِينَةِ",
+      "hadith_from": 1571,
+      "hadith_to": 1595
+    },
+    {
+      "chapter_name": "كتاب القدر",
+      "hadith_from": 1596,
+      "hadith_to": 1605
+    },
+    {
+      "chapter_name": "كتاب حسن الخلق",
+      "hadith_from": 1606,
+      "hadith_to": 1623
+    },
+    {
+      "chapter_name": "كتاب اللباس",
+      "hadith_from": 1624,
+      "hadith_to": 1643
+    },
+    {
+      "chapter_name": "كتاب صفة النبى صلى الله عليه وسلم",
+      "hadith_from": 1644,
+      "hadith_to": 1683
+    },
+    {
+      "chapter_name": "كتاب العين",
+      "hadith_from": 1684,
+      "hadith_to": 1702
+    },
+    {
+      "chapter_name": "كتاب الشعر",
+      "hadith_from": 1703,
+      "hadith_to": 1719
+    },
+    {
+      "chapter_name": "كتاب الرؤيا",
+      "hadith_from": 1720,
+      "hadith_to": 1727
+    },
+    {
+      "chapter_name": "كتاب السلام",
+      "hadith_from": 1728,
+      "hadith_to": 1733
+    },
+    {
+      "chapter_name": "كتاب الاستئذان",
+      "hadith_from": 1734,
+      "hadith_to": 1778
+    },
+    {
+      "chapter_name": "كتاب البيعة",
+      "hadith_from": 1779,
+      "hadith_to": 1781
+    },
+    {
+      "chapter_name": "كتاب الكلام",
+      "hadith_from": 1782,
+      "hadith_to": 1809
+    },
+    {
+      "chapter_name": "كتاب جهنم",
+      "hadith_from": 1810,
+      "hadith_to": 1811
+    },
+    {
+      "chapter_name": "كتاب الصدقة",
+      "hadith_from": 1812,
+      "hadith_to": 1826
+    },
+    {
+      "chapter_name": "كتاب دعوة المظلوم",
+      "hadith_from": 1827,
+      "hadith_to": 1827
+    },
+    {
+      "chapter_name": "كتاب أسماء النبى صلى الله عليه وسلم",
+      "hadith_from": 1828,
+      "hadith_to": 1828
+    }
+  ]
+}

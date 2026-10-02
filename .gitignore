@@ -1,5 +1,10 @@
 node_modules/
 
+
+scripts/
+
+test/
+
 .env
 .env.local
 .env.development.local
